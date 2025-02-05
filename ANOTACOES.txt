@@ -34,11 +34,22 @@ EX.: Lista de clientes com seus números de COF, ordenados.
 # SQLite
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-* SISTEMA DE BANCOS DE DADOS: Usuários --> Aplicativos de Acesso --> SGBD(Manipulação/Consultas/Definição de Dados) --> Banco de Dados + Metadados.
+- SISTEMA DE BANCOS DE DADOS: Usuários --> Aplicativos de Acesso --> SGBD(Manipulação/Consultas/Definição de Dados) --> Banco de Dados + Metadados.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Usuários de Bancos de Dados: 
+- USUÁRIOS DE BANCOS DE DADOS: 
 # Administrador (DBA)
 # Projetista / Desenvolvedor
 # Usuário Final
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- CARACTERÍSTICAS E FUNCIONALIDADES
+# Controle de Redundância
+# Múltiplas Visões dos Dados
+# Controle de Concorrência
+# Backup e Restauração
+# Autenticação e Autorização de acesso
+# Restrições de Integridade
+
+
