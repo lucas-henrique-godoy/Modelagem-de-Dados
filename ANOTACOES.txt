@@ -4,12 +4,12 @@
 
 - Dados: São fatos em uma forma primária, que podem ser armazenados em algum meio.
 EX.: CPF, Nome, Data.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Informação: São os fatos organizados de maneira a produzir um significado -> Dados colocados em contexto.
 EX.: Lista de clientes com seus números de COF, ordenados.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -Metadados: Definimos Metadados como sendo "Dados sobre dados". Permitem efetuar a representação e identificação dos dados, garantindo sua consistência e persistência. Os Metadados são mantidos no Dicionário de Dados (ou em um Catálogo de Dados).
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Bancos de Dados: Um Banco de Dados (BD) é uma coleção organizada de dados. Esses dados são organizados de modo a modelar aspectos do mundo real, para que seja possível efetuar processamento que gere informações relevantes para os usuários a partir desses dados. Um BD é composto por diversos objetos, tais como: tabelas, esquemas, visões, consultas, relatórios, procedimentos, triggers, entre outros.
 -Aplicações dos Bancos de Dados: Bancos de dados encontram aplicações em inúmeras áreas, como:
 
@@ -20,7 +20,7 @@ EX.: Lista de clientes com seus números de COF, ordenados.
 # E-commerce
 # Receita Federal
 # YouTube
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -SGBD - Sistema de Gerenciamento de Bancos de Dados: Um SGBD é uma coleção de softwares que permite aos usuários criarem e manterem um ou mais bancos de dados. São usados nas tarefas de definição,  construção, manipulação e compartilhamento dos bancos de dados entre aplicações e usuários. Permitem proteger o banco de dados e mantê-lo ao longo do tempo. Exemplos de SGBDs:
 # Oracle Database
@@ -32,4 +32,6 @@ EX.: Lista de clientes com seus números de COF, ordenados.
 # Teradata
 # PostgreSQL
 # SQLite
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+SISTEMA DE BANCOS DE DADOS: Usuários --> Aplicativos de Acesso --> SGBD(Manipulação/Consultas/Definição de Dados) --> Banco de Dados + Metadados.
