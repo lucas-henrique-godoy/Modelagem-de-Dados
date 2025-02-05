@@ -22,7 +22,7 @@ EX.: Lista de clientes com seus números de COF, ordenados.
 # YouTube
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
--SGBD - Sistema de Gerenciamento de Bancos de Dados: Um SGBD é uma coleção de softwares que permite aos usuários criarem e manterem um ou mais bancos de dados. São usados nas tarefas de definição,  construção, manipulação e compartilhamento dos bancos de dados entre aplicações e usuários. Permitem proteger o banco de dados e mantê-lo ao longo do tempo. Exemplos de SGBDs:
+- SGBD - Sistema de Gerenciamento de Bancos de Dados: Um SGBD é uma coleção de softwares que permite aos usuários criarem e manterem um ou mais bancos de dados. São usados nas tarefas de definição,  construção, manipulação e compartilhamento dos bancos de dados entre aplicações e usuários. Permitem proteger o banco de dados e mantê-lo ao longo do tempo. Exemplos de SGBDs:
 # Oracle Database
 # Microsoft SQL Server
 # MySQL
@@ -34,4 +34,10 @@ EX.: Lista de clientes com seus números de COF, ordenados.
 # SQLite
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-SISTEMA DE BANCOS DE DADOS: Usuários --> Aplicativos de Acesso --> SGBD(Manipulação/Consultas/Definição de Dados) --> Banco de Dados + Metadados.
+* SISTEMA DE BANCOS DE DADOS: Usuários --> Aplicativos de Acesso --> SGBD(Manipulação/Consultas/Definição de Dados) --> Banco de Dados + Metadados.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Usuários de Bancos de Dados: 
+# Administrador (DBA)
+# Projetista / Desenvolvedor
+# Usuário Final
