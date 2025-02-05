@@ -57,5 +57,10 @@ EX.: Lista de clientes com seus números de COF, ordenados.
 # Autenticação e Autorização de acesso (Somente usuários autorizados tenham o acesso aos dados).
 
 # Restrições de Integridade (Garantem a precisão, consistência e validade dos dados, impondo regras como chaves primárias, estrangeiras e verificações para evitar entradas inválidas ou conflitantes.)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* MODELOS DE BANCO DE DADOS (Históricos)
+
+- Modelo Hierárquico: Neste modelo os dados são organizados de forma hierárquica, com  conjuntos de tipos de registros interconectados por meio de ligações. Uma ligação representa uma relação entre dois tipos de registros: pai e filho. Um esquema no modelo hierárquico é um diagrama de estrutura em árvore. O acesso aos dados é sempre unidirecional, a partir do pai ao filho.
 
 
