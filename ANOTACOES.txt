@@ -68,5 +68,8 @@ EX.: Lista de clientes com seus números de COF, ordenados.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 - Modelo Relacional: Neste modelo os dados são separados em entidades, conforme cada assunto,  e registrados como atributos dessas entidades. As entidades se relacionam entre si e permitem que os dados sejam armazenados e recuperados de forma rápida e segura.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* MODELOS DE DADOS
 
 
