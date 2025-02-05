@@ -4,8 +4,8 @@
 
 - Dados: São fatos em uma forma primária, que podem ser armazenados em algum meio.
 EX.: CPF, Nome, Data.
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Informação: São os fatos organizados de maneira a produzir um significado -> Dados colocados em contexto.
 EX.: Lista de clientes com seus números de COF, ordenados.
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -Metadados: Definimos Metadados como sendo "Dados sobre dados". Permitem efetuar a representação e identificação dos dados, garantindo sua consistência e persistência. Os Metadados são mantidos no Dicionário de Dados (ou em um Catálogo de Dados).
