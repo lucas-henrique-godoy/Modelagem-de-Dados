@@ -45,11 +45,16 @@ EX.: Lista de clientes com seus números de COF, ordenados.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 - CARACTERÍSTICAS E FUNCIONALIDADES
-# Controle de Redundância
-# Múltiplas Visões dos Dados
-# Controle de Concorrência
-# Backup e Restauração
-# Autenticação e Autorização de acesso
-# Restrições de Integridade
+# Controle de Redundância (Evitar duplicidades dos dados).
+
+# Múltiplas Visões dos Dados (Exibir as informações de formas distintas para os usuários, dependendo de quem e como se quer ver aquela informação).
+
+# Controle de Concorrência (Gerencia o acesso simultâneo aos dados por múltiplos usuários, garantindo consistência, integridade e desempenho, evitando conflitos como leituras e gravações inconsistentes).
+
+# Backup e Restauração (Envolvem a criação de cópias de segurança dos dados para proteger contra perda e a recuperação dessas cópias em caso de falhas ou corrupção, garantindo a continuidade dos serviços.)
+
+# Autenticação e Autorização de acesso (Somente usuários autorizados tenham o acesso aos dados).
+
+# Restrições de Integridade (Garantem a precisão, consistência e validade dos dados, impondo regras como chaves primárias, estrangeiras e verificações para evitar entradas inválidas ou conflitantes.)
 
 
