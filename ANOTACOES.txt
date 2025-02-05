@@ -1,1 +1,8 @@
-				CURSO DE MODELAGEM DE DADOS DO CANAL BÓSON TREINAMENTOS
+				***CURSO DE MODELAGEM DE DADOS DO CANAL BÓSON TREINAMENTOS***
+
+*DADOS X INFORMAÇÃO:
+- Dados: São fatos em uma forma primária, que podem ser armazenados em algum meio.
+EX.: CPF, Nome, Data.
+
+- Informação: São os fatos organizados de maneira a produzir um significado -> Dados colocados em contexto.
+EX.: Lista de clientes com seus números de COF, ordenados.
