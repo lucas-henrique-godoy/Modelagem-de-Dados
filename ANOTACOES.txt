@@ -35,6 +35,7 @@ EX.: Lista de clientes com seus números de COF, ordenados.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * SISTEMA DE BANCOS DE DADOS: Usuários --> Aplicativos de Acesso --> SGBD(Manipulação/Consultas/Definição de Dados) --> Banco de Dados + Metadados.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Usuários de Bancos de Dados: 
