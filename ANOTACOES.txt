@@ -72,4 +72,17 @@ ________________________________________________________________________________
 
 * MODELOS DE DADOS: Um modelo é uma estrutura que ajuda a comunicar os conceitos que estão na mente do projetista. Podemos usá-los para tarefas como descrever, analisar, especificar e comunicar ideias. O modelo deve possuir detalhes suficientes para que um desenvolvedor consiga construir o banco de dados de acordo com a necessidade do projeto.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* MODELAGEM DE DADOS: Modelagem de dados é o processo de criação de um Modelo de Dados para um sistema de informação, com a aplicação de técnicas específicas de modelagem.
+Trata-se de processos para definir e analisar requisitos de dados necessários para suportar processos de negócio com sistemas informatizados em organizações. Um modelo de dados fornece uma estrutura para os dados usados em um SI, com definições e formatos específicos.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* MODELOS DE DADOS
+- Hierárquico
+- Rede
+- Relacional
+- Orientado a Objeto
+- Não-Relacional
+
 
