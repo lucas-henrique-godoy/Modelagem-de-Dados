@@ -70,6 +70,6 @@ EX.: Lista de clientes com seus números de COF, ordenados.
 - Modelo Relacional: Neste modelo os dados são separados em entidades, conforme cada assunto,  e registrados como atributos dessas entidades. As entidades se relacionam entre si e permitem que os dados sejam armazenados e recuperados de forma rápida e segura.
 _______________________________________________________________________________________________________________________________________________________________________
 
-* MODELOS DE DADOS
+* MODELOS DE DADOS: Um modelo é uma estrutura que ajuda a comunicar os conceitos que estão na mente do projetista. Podemos usá-los para tarefas como descrever, analisar, especificar e comunicar ideias. O modelo deve possuir detalhes suficientes para que um desenvolvedor consiga construir o banco de dados de acordo com a necessidade do projeto.
 
 
