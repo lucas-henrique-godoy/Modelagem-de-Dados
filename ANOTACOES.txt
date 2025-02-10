@@ -84,5 +84,8 @@ Trata-se de processos para definir e analisar requisitos de dados necessários p
 - Relacional
 - Orientado a Objeto
 - Não-Relacional
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* MODELO RELACIONAL: Os princípios do modelo relacional foram esboçados por E.F. Codd (IBM) em um artigo publicado em junho de 1970, intitulado "A Relational Model of Data for Large Shared Data Banks", no qual o Dr.Codd propôs o modelo relacional para sistemas de bancos de dados. Antes disso eram usados modelos como o hierárquico e o modelo em rede.
 
 
