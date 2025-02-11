@@ -97,5 +97,9 @@ Trata-se de processos para definir e analisar requisitos de dados necessários p
 - Coleções de objetos ou relações que armazenam os dados.
 - Um conjunto de operadores que agem nas relações, produzindo outras relações.
 - Integridade de dados, para precisão e consistência.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* BANCO DE DADOS RELACIONAL: Um banco de dados relacional é uma coleção de relações, que são tabelas bidimensionais, onde os dados são armazenados. Como exemplo, podemos querer armazenar dados sobre os clientes de uma loja. Para isso, criamos tabelas para guardar diferentes conjuntos de dados relacionados a esses, como dados pessoais, dados de compras, crédito, e outras.
+
 
 
