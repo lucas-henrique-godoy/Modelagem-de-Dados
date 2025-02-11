@@ -117,5 +117,9 @@ Trata-se de processos para definir e analisar requisitos de dados necessários p
 
 - CHAVE ESTRANGEIRA: Coluna que define como as tabelas se relacionam umas com as outras. Uma FK se refere a uma PK ou a uma chave única em outra tabela (ou na mesma tabela!). Por exemplo, na tabela de pedidos podemos ter uma chave estrangeira efetuando o relacionamento com a chave primária na tabela de clientes.
 
+_______________________________________________________________________________________________________________________________________________________________________
 
+* ANÁLISE DE REQUISITOS: Nesta fase, são realizadas reuniões para coleta de informações,  que analisam o que é exigido para o banco de dados a ser criado.
+Os processos de negócio são definidos,  e as entidades, atributos e relacionamentos do BD são documentadas.
+A análise é extremamente importante para o sucesso do projeto do BD.
 
