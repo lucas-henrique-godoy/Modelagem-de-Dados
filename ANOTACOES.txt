@@ -101,6 +101,7 @@ Trata-se de processos para definir e analisar requisitos de dados necessários p
 
 * BANCO DE DADOS RELACIONAL: Um banco de dados relacional é uma coleção de relações, que são tabelas bidimensionais, onde os dados são armazenados. Como exemplo, podemos querer armazenar dados sobre os clientes de uma loja. Para isso, criamos tabelas para guardar diferentes conjuntos de dados relacionados a esses, como dados pessoais, dados de compras, crédito, e outras.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * COMPONENTES DE UM BANCO DE DADOS RELACIONAL: 
 - TABELA: Estrutura básica de armazenamento no SGBDR. Armazena todos os dados necessários sobre algo do mundo real, como clientes, pedidos ou produtos. Também chamada de Relação. Um banco de dados relacional pode conter uma ou mais Tabelas.
 
@@ -111,6 +112,10 @@ Trata-se de processos para definir e analisar requisitos de dados necessários p
 - RELACIONAMENTO: Associação entre as entidades (tabelas), conectadas por chaves primárias e chaves estrangeiras.
 
 - OUTROS: Índices. SP(Stored Procedures), Trigger, etc.
+
+- CHAVE PRIMÁRIA: Coluna (atributo) que identifica um registro de forma exclusiva na tabela. Por exemplo, o CPF de um cliente, contendo um valor que não se repete na relação.
+
+- CHAVE ESTRANGEIRA: Coluna que define como as tabelas se relacionam umas com as outras. Uma FK se refere a uma PK ou a uma chave única em outra tabela (ou na mesma tabela!). Por exemplo, na tabela de pedidos podemos ter uma chave estrangeira efetuando o relacionamento com a chave primária na tabela de clientes.
 
 
 
