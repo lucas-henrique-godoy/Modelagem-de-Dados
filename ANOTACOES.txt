@@ -92,5 +92,10 @@ Trata-se de processos para definir e analisar requisitos de dados necessários p
 - Essas tabelas são também chamadas de "Relações".
 - Relação é uma forma de se organizar os dados em linhas e colunas.
 - Baseado em lógica e teoria de conjunto.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* COMPONENTES DO MODELO RELACIONAL: O modelo relacional é composto, basicamente por:
+- Coleções de objetos ou relações que armazenam os dados.
+- Um conjunto de operadores que agem nas relações, produzindo outras relações.
+- Integridade de dados, para precisão e consistência.
 
 
