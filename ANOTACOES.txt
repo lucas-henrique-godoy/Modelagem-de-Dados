@@ -101,5 +101,10 @@ Trata-se de processos para definir e analisar requisitos de dados necessários p
 
 * BANCO DE DADOS RELACIONAL: Um banco de dados relacional é uma coleção de relações, que são tabelas bidimensionais, onde os dados são armazenados. Como exemplo, podemos querer armazenar dados sobre os clientes de uma loja. Para isso, criamos tabelas para guardar diferentes conjuntos de dados relacionados a esses, como dados pessoais, dados de compras, crédito, e outras.
 
+* COMPONENTES DE UM BANCO DE DADOS RELACIONAL: 
+- TABELA: Estrutura básica de armazenamento no SGBDR. Armazena todos os dados necessários sobre algo do mundo real, como clientes, pedidos ou produtos. Também chamada de Relação. Um banco de dados relacional pode conter uma ou mais Tabelas.
+
+- TUPLA: Ou Linha / Registro, representa todos os dados requeridos por uma determinada ocorrência de entidade em particular. Por exemplo, os dados de um cliente específico. Cada linha em uma tabela deve ser identificada por uma chave primária,  de modo a não haver duplicação de registros.
+
 
 
