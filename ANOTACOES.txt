@@ -140,4 +140,7 @@ ________________________________________________________________________________
 - RELACIONAMENTOS: nome identificador (verbo); opcionalidade ("deve ser" ou "pode ser"); grau ou cardinalidade ('um e apenas um', 'um ou mais').
 
 CARDINALIDADE: Significa que cada entidade pode ser ou deve em relação de forma uma e apenas uma ou uma ou mais com outra entidade.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* IDENTIFICADOR ÚNICO (UID): Um identificador único é qualquer combinação de atributos ou relacionamentos que são uados para distinguir ocorrências de uma entidade. Cada ocorrência da entidade deve ser identificável de forma exclusiva.
 
