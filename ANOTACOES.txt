@@ -106,5 +106,11 @@ Trata-se de processos para definir e analisar requisitos de dados necessários p
 
 - TUPLA: Ou Linha / Registro, representa todos os dados requeridos por uma determinada ocorrência de entidade em particular. Por exemplo, os dados de um cliente específico. Cada linha em uma tabela deve ser identificada por uma chave primária,  de modo a não haver duplicação de registros.
 
+- COLUNA: Unidade que armazena um tipo específico de dado (valor) - ou não armazena nada, com valor nulo. Esta é uma coluna não-chave, significando que seu valor pode se repetir em outras linhas da tabela.
+
+- RELACIONAMENTO: Associação entre as entidades (tabelas), conectadas por chaves primárias e chaves estrangeiras.
+
+- OUTRIS: Índices. SP, Trigger, etc.
+
 
 
