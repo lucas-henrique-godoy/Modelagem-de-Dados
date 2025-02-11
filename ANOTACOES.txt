@@ -110,7 +110,7 @@ Trata-se de processos para definir e analisar requisitos de dados necessários p
 
 - RELACIONAMENTO: Associação entre as entidades (tabelas), conectadas por chaves primárias e chaves estrangeiras.
 
-- OUTROS: Índices. SP, Trigger, etc.
+- OUTROS: Índices. SP(Stored Procedures), Trigger, etc.
 
 
 
