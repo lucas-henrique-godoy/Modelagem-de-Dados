@@ -122,4 +122,12 @@ ________________________________________________________________________________
 * ANÁLISE DE REQUISITOS: Nesta fase, são realizadas reuniões para coleta de informações,  que analisam o que é exigido para o banco de dados a ser criado.
 Os processos de negócio são definidos,  e as entidades, atributos e relacionamentos do BD são documentadas.
 A análise é extremamente importante para o sucesso do projeto do BD.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* MODELO ENTIDADE-RELACIONAMENTO: MER, cria um diagrama entidade-relacionamento a partir das especificações do negócio ou narrativas do usuário. Permite ilustrar as entidades em um negócio e também relacionamentos entre elas. Construímos o MER durante a fase de análise no ciclo de vida de desenvolvimento do sistema. Um MER separa a informação que é necessária ao negócio,  das atividades que são realizadas no negócio.
+
+* COMPONENTES DO MER:
+- ENTIDADE: Algo significativo, sobre o qual devemos possuir informações. Como exemplos, temos clientes, funcionários, pedidos e produtos.
+- ATRIBUTO: Algo que descreve ou qualifica uma entidade. P.ex., a entidade cliente possui atributos que descrevem seu nome, endereço, telefone, número de identificação, entre outros. Atributos podem ser obrigatórios ou opcionais.
+- RELACIONAMENTO: Trata-se de uma associação nomeada entre entidades, com um grau de associação. Por exemplo clientes podem estar associados a pedidos.
 
