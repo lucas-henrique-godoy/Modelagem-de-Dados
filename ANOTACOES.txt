@@ -132,4 +132,12 @@ ________________________________________________________________________________
 - ATRIBUTO: Algo que descreve ou qualifica uma entidade. P.ex., a entidade cliente possui atributos que descrevem seu nome, endereço, telefone, número de identificação, entre outros. Atributos podem ser obrigatórios ou opcionais.
 
 - RELACIONAMENTO: Trata-se de uma associação nomeada entre entidades, com um grau de associação. Por exemplo clientes podem estar associados a pedidos.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* CONVENÇÕES PARA MODELAGEM DE ENTIDADES, RELACIONAMENTOS E ATRIBUTOS:
+- ENTIDADES: Nome único, singular; em caixa alta;
+- ATRIBUTOS: nome no singular; caixa baixa; atributos obrigatórios marcados com '*'; identificador único marcado com '#'.
+- RELACIONAMENTOS: nome identificador (verbo); opcionalidade ("deve ser" ou "pode ser"); grau ou cardinalidade ('um e apenas um', 'um ou mais').
+
+CARDINALIDADE: Significa que cada entidade pode ser ou deve em relação de forma uma e apenas uma ou uma ou mais com outra entidade.
 
