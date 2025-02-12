@@ -157,4 +157,8 @@ ________________________________________________________________________________
 EXEMPLO: Cadastro de  produtos de uma loja
 Dados necessários: Nome de produto, categoria de produto (limpeza, higiene, etc), código do fornecedor, tipo de embalagem, tamanho, quantidade.
 Neste nível, detalhes da implementação não aparecem, porém é suficientemente detalhado para a ponto de ser possível descrever os tipos de dados requeridos, seus relacionamentos entre si e regras de consistência.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* MODELO LÓGICO: Um modelo lógico possui conceitos que os usuários são capazes de entender,  ao mesmo tempo em que não está distante do modelo físico do banco de dados. Neste nível o projeto é independente de SGBD.
+Consiste na especificação lógica dos dados em um formato adequado ao SGBD escolhido. Os tipos dedados são completamente definidos.
 
