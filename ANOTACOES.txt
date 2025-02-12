@@ -171,3 +171,19 @@ ________________________________________________________________________________
 
 * ESQUEMA DO BANCO DE DADOS: Um Esquema é uma definição do Banco de Dados especificada durante o projeto, armazenada no Dicionário de Dados. Um Esquema (Schema) raramente muda durante a vida do BD.
 Trata-se da organização dos dados em um plano que mostra como o banco é construído. O esquema define tabelas, campos, relacionamentos, visões, funções e muitos outros elementos que compõem o BD.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* ESTAPAS DO DESENVOLVIMENTO DE UM BD: As principais etapas no desenvolvimento de um BD são:
+1- Especificação e Análise de Requisitos
+   a. Os requisitos são documentados.
+
+2- Projeto Conceitual
+   a. Baseado nos requisitos.
+
+3- Projeto Lógico
+   a. Expresso em um modelo de dados, como o relacional.
+
+4- Projeto Físico
+   a. Especificações para armazenar e acessar o banco de dados.
+   b. Implementação do BD, inserção de dados reais e manutenção.
+
