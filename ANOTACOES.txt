@@ -167,4 +167,7 @@ Consiste na especificação lógica dos dados em um formato adequado ao SGBD esc
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * ARQUITETURA DE TRÊS NÍVEIS: MUNDO OBSERVADO --> MODELO CONCEITUAL --> MODELO LÓGICO --> MODELO FÍSICO.
+_______________________________________________________________________________________________________________________________________________________________________
 
+* ESQUEMA DO BANCO DE DADOS: Um Esquema é uma definição do Banco de Dados especificada durante o projeto, armazenada no Dicionário de Dados. Um Esquema (Schema) raramente muda durante a vida do BD.
+Trata-se da organização dos dados em um plano que mostra como o banco é construído. O esquema define tabelas, campos, relacionamentos, visões, funções e muitos outros elementos que compõem o BD.
