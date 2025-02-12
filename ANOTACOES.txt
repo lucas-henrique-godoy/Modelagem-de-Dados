@@ -161,4 +161,7 @@ Neste nível, detalhes da implementação não aparecem, porém é suficientemen
 
 * MODELO LÓGICO: Um modelo lógico possui conceitos que os usuários são capazes de entender,  ao mesmo tempo em que não está distante do modelo físico do banco de dados. Neste nível o projeto é independente de SGBD.
 Consiste na especificação lógica dos dados em um formato adequado ao SGBD escolhido. Os tipos dedados são completamente definidos.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* MODELO FÍSICO: A partir de um modelo lógico nós derivamos o modelo físico, onde se detalham os componentes de estrutura física do banco de dados, incluindo as tabelas, campos, tipos de valores, restrições, etc. Ao criarmos o modelo físico, poderemos partir para a implementação física do banco de dados, utilizando o SGBD mais adequado.
 
