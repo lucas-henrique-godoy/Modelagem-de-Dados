@@ -206,6 +206,15 @@ MER: Após o levantamento dos requisitos, estes são transformados em um Modelo 
 - Atributos.
 
 O modelo é posteriormente refinado com o uso de técnicas específicas, e finalmente implementado em um banco de dados físico.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* MODELO ENTIDADE-RELACIONANENTO: Também conhecido pela sigla MER, trata-se de um modelo conceitual usado para descrever objetos envolvidos no domínio de um sistema a ser construído, incluindo seus atributos e relacionamentos.
+O MER permite representar de forma abstrata a estrutura que irá constituir o banco de dados.
+É composto pelos seguintes objetos:
+- Entidades.
+- Atributos.
+- Relacionamentos.
+
 
 
 
