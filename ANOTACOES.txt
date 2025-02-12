@@ -166,5 +166,5 @@ Consiste na especificação lógica dos dados em um formato adequado ao SGBD esc
 * MODELO FÍSICO: A partir de um modelo lógico nós derivamos o modelo físico, onde se detalham os componentes de estrutura física do banco de dados, incluindo as tabelas, campos, tipos de valores, restrições, etc. Ao criarmos o modelo físico, poderemos partir para a implementação física do banco de dados, utilizando o SGBD mais adequado.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-* ARQUITETURA DE TRÊS NÍVEIS: MUNDO OBSERVADO --> MODELO CONCEITUAL --> MODELO LÓGICO --> MODELO FÍSICO
+* ARQUITETURA DE TRÊS NÍVEIS: MUNDO OBSERVADO --> MODELO CONCEITUAL --> MODELO LÓGICO --> MODELO FÍSICO.
 
