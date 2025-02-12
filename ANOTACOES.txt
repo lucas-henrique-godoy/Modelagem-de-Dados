@@ -189,4 +189,13 @@ As principais etapas no desenvolvimento de um BD são:
 4- Projeto Físico
    a. Especificações para armazenar e acessar o banco de dados.
    b. Implementação do BD, inserção de dados reais e manutenção.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* TAREFAS PARA MODELAGEM: As tarefas a seguir devem ser realizadas para que seja possível efetuar modelagem de dados e projeto de BD funcional:
+- Identificar os tipos de entidade.
+- Identificar atributos.
+- Identificar relacionamentos.
+- Criar e associar chaves.
+- Normalizar para reduzir redundância.
+- Desnormalizar para aumentar performance.
 
