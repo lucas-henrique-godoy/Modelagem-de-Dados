@@ -173,7 +173,10 @@ ________________________________________________________________________________
 Trata-se da organização dos dados em um plano que mostra como o banco é construído. O esquema define tabelas, campos, relacionamentos, visões, funções e muitos outros elementos que compõem o BD.
 _______________________________________________________________________________________________________________________________________________________________________
 
-* ESTAPAS DO DESENVOLVIMENTO DE UM BD: As principais etapas no desenvolvimento de um BD são:
+* ESTAPAS DO DESENVOLVIMENTO DE UM BD:
+
+As principais etapas no desenvolvimento de um BD são:
+
 1- Especificação e Análise de Requisitos
    a. Os requisitos são documentados.
 
