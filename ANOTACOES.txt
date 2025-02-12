@@ -198,4 +198,17 @@ ________________________________________________________________________________
 - Criar e associar chaves.
 - Normalizar para reduzir redundância.
 - Desnormalizar para aumentar performance.
+_______________________________________________________________________________________________________________________________________________________________________
+
+MER: Após o levantamento dos requisitos, estes são transformados em um Modelo Entidade-Relacionamento (MER), o qual consiste dos seguintes elementos:
+- Entidades.
+- Relacionamentos.
+- Atributos.
+
+O modelo é posteriormente refinado com o uso de técnicas específicas, e finalmente implementado em um banco de dados físico.
+
+
+
+
+
 
