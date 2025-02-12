@@ -143,4 +143,17 @@ CARDINALIDADE: Significa que cada entidade pode ser ou deve em relação de form
 _______________________________________________________________________________________________________________________________________________________________________
 
 * IDENTIFICADOR ÚNICO (UID): Um identificador único é qualquer combinação de atributos ou relacionamentos que são uados para distinguir ocorrências de uma entidade. Cada ocorrência da entidade deve ser identificável de forma exclusiva.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* MODELOS CONCEITUAL, LÓGICO E FÍSICO:
+
+* MODELAGEM DE DADOS - NÍVEIS: Classificamos o processo de modelagem de dados em três níveis:
+- Modelo Conceitual (alto nível) - MCD.
+- Modelo lógico - MLD.
+- Modelo Físico (baixo nível) - MFD.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* MODELO CONCEITUAL: Esta é a primeira fase da modelagem, onde representaremos o mundo real por meio de uma visão simplificada dos dados e seus relacionamentos. Assim poderemos determinar quais informações serão armazenadas no BD. Neste nível o projeto é independente de SGBD.
+EXEMPLO: Cadastro de  produtos de uma loja
+Dados necessários: Nome de produto, categoria de produto (limpeza, higiene, etc), código do fornecedor, tipo de embalagem, tamanho, quantidade.
 
