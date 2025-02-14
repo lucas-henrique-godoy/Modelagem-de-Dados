@@ -287,8 +287,39 @@ EX:
 
 # Os nomes de colunas devem ser únicos dentro de uma tabela.
 # Os nomes de entidades / tabelas devem ser únicos dentro do esquema.
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * INSTÂNCIA DE ENTIDADE: Uma entidade em si é uma descrição da estrutura e formato das ocorrências da entidade, como uma "receita", ou "planta". Uma instância de entidade é uma ocorrência específica de uma entidade.
+EX:
++--------------------------+
+|                          | 
+| Modelo                   | --> Atributo
+| Cor                      | --> Atributo
+| Ano                      | --> Atributo
+| Placa                    | --> Atributo
++--------------------------+
+
+Instâncias:
+
+1. **Carro 1**:
+   - Modelo: Fusca
+   - Cor: Azul
+   - Ano: 1975
+   - Placa: ABC-1234
+
+2. **Carro 2**:
+   - Modelo: Corolla
+   - Cor: Preto
+   - Ano: 2020
+   - Placa: XYZ-5678
+
+3. **Carro 3**:
+   - Modelo: Uno
+   - Cor: Vermelho
+   - Ano: 2015
+   - Placa: PQR-9876
+
+Esse é o diagrama simples com a entidade Carro e as instâncias. 
+
 	
 
 
