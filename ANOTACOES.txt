@@ -257,3 +257,9 @@ As entidades podem ter várias propriedades (atributos) que as caracterizam. Dia
     *
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* ENTIDADE: 
+- Algo de importância para um usuário ou organização que precisa ser representado em um banco de dados.
+- Representa um tema, tópico ou conceito de negócio.
+- Cada objeto de uma entidade é denominado de INSTÂNCIA DE ENTIDADE.
+- Uma entidade pode ter existência física ou abstrata.
+EX: Empregados, Livros, Vendas, Produtos.
