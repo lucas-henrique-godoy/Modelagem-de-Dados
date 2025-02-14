@@ -233,9 +233,27 @@ As entidades podem ter várias propriedades (atributos) que as caracterizam. Dia
 - Linhas - Ligam atributos a entidades e entidades a relacionamentos.
 
 
++--------+
+|        | 
+|        | --> Retângulo (ENTIDADE)
+|        |
+|        |
++--------+
 
 
+   *****
+ *       *
+*         * --> Elispse (ATRIBUTO)
+ *       *
+   *****
 
 
+    *
+   * *
+  *   *
+ *     * --> Losângulo (RELACIONAMENTO)
+  *   *
+   * *
+    *
 
 
