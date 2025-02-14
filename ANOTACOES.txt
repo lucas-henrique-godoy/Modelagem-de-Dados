@@ -224,6 +224,14 @@ As entidades podem ter várias propriedades (atributos) que as caracterizam. Dia
 
 - Modelo ER (MER): Lista de entidades, atributos e relacionamentos, que traz informações sobre tipos de dados, restrições, descrições de entidades e outras.
 - Diagrama ER (DER): Representação gráfica associada ao MER (ou parte dele).
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* COMPONENTES DO DER:
+- Retângulos - Representam entidades.
+- Elipses - Representam atributos.
+- Losangos - Representam relacionamentos.
+- Linhas - Ligam atributos a entidades e entidades a relacionamentos.
+
 
 
 
