@@ -346,6 +346,11 @@ Departamento----------Função (sem elipse)
 - Determinante
 - Identificador
 entre outros.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*ATRIBUTO SIMPLES / ATÔMICO: Não possui características especiais, e são indivisíveis.
+Ex.: Nome da empresa, CPF, CNPJ.
+EMPRESA -------NOME
 
 	
 
