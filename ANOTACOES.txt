@@ -263,3 +263,6 @@ As entidades podem ter várias propriedades (atributos) que as caracterizam. Dia
 - Cada objeto de uma entidade é denominado de INSTÂNCIA DE ENTIDADE.
 - Uma entidade pode ter existência física ou abstrata.
 EX: Empregados, Livros, Vendas, Produtos.
+
+- Nomeamos as entidades usando substantivos que representam de forma clara e objetiva sua função.
+- Por exemplo, podemos ter em um sistema as entidades Produto, Cliente, Venda, Estoque, Catálogo, entre outras.
