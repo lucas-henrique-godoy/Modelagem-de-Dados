@@ -323,6 +323,11 @@ Instâncias:
    - Placa: PQR-9876
 
 Esse é o diagrama simples com a entidade Carro e as instâncias. 
+_______________________________________________________________________________________________________________________________________________________________________
+
+* ATRIBUTOS:
+- Os atributos descrevem características da entidade, como por exemplo: fabricante, modelo, cor, placa, etc.
+- Os atributos possuem um tipo de dados (domínio) nome e valor específico.
 
 	
 
