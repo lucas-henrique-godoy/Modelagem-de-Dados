@@ -336,7 +336,16 @@ ________________________________________________________________________________
 
 Departamento----------Função (com elipse)
 
-Departamento------Função (sem elipse)
+Departamento----------Função (sem elipse)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* TIPOS DE ATRIBUTOS: Os atributos podem ser de vários tipos, tais como:
+- Simples
+- Composto
+- Multivalorado
+- Determinante
+- Identificador
+entre outros.
 
 	
 
