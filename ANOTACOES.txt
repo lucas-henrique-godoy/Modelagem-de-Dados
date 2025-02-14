@@ -269,7 +269,7 @@ EX: Empregados, Livros, Vendas, Produtos.
 - Por exemplo, podemos ter em um sistema as entidades Produto, Cliente, Venda, Estoque, Catálogo, entre outras.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-*Representação de Entidades: Representamos as entidades em um DER por meio de retângulos contendo o nome da entidade.
+*REPRESENTAÇÃO DE ENTIDADES: Representamos as entidades em um DER por meio de retângulos contendo o nome da entidade.
 EX:
 +-----------------+     +-----------------+
 |                 |     |                 |
@@ -287,6 +287,8 @@ EX:
 
 # Os nomes de colunas devem ser únicos dentro de uma tabela.
 # Os nomes de entidades / tabelas devem ser únicos dentro do esquema.
+
+* INSTÂNCIA DE ENTIDADE: Uma entidade em si é uma descrição da estrutura e formato das ocorrências da entidade, como uma "receita", ou "planta". Uma instância de entidade é uma ocorrência específica de uma entidade.
 	
 
 
