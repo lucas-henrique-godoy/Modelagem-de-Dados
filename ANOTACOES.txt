@@ -278,4 +278,15 @@ EX:
 |                 |     |                 |
 +-----------------+     +-----------------+
 
+* ENTIDADES - ALGUMAS REGRAS DE NOMEAÇÃO:
+# NOMES DE ENTIDADES:
+  - Devem começar com uma letra;
+  - Usar palavra no singular;
+  - Não podem ter espaços ou alguns caracteres especiais;
+  - Alguns caracteres como "$", "#" e "_" são permitidos em alguns bancos de  dados.
+
+# Os nomes de colunas devem ser únicos dentro de uma tabela.
+# Os nomes de entidades / tabelas devem ser únicos dentro do sistema.
+	
+
 
