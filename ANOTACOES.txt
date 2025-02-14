@@ -290,6 +290,10 @@ EX:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * INSTÂNCIA DE ENTIDADE: Uma entidade em si é uma descrição da estrutura e formato das ocorrências da entidade, como uma "receita", ou "planta". Uma instância de entidade é uma ocorrência específica de uma entidade.
 EX:
+
+(Classe de) Entidade 
+
+Carro
 +--------------------------+
 |                          | 
 | Modelo                   | --> Atributo
