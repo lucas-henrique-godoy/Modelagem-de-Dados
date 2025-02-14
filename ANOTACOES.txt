@@ -233,12 +233,13 @@ As entidades podem ter várias propriedades (atributos) que as caracterizam. Dia
 - Linhas - Ligam atributos a entidades e entidades a relacionamentos.
 
 
-+--------+
-|        | 
-|        | --> Retângulo (ENTIDADE)
-|        |
-|        |
-+--------+
++--------------------------+
+|                          | 
+|                          | --> Retângulo (ENTIDADE)
+|                          |
+|                          |
++--------------------------+
+
 
 
    *****
@@ -270,17 +271,11 @@ EX: Empregados, Livros, Vendas, Produtos.
 
 *Representação de Entidades: Representamos as entidades em um DER por meio de retângulos contendo o nome da entidade.
 EX:
-+--------+
-|        | 
-|CLIENTE | 				
-|        |
-|        |
-+--------+
++-----------------+     +-----------------+
+|                 |     |                 |
+|    CLIENTE      |     |    PRODUTO      |
+|                 |     |                 |
+|                 |     |                 |
++-----------------+     +-----------------+
 
-+--------+
-|        | 
-|PRODUTO | 
-|        |
-|        |
-+--------+
 
