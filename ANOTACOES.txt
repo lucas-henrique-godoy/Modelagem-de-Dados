@@ -286,7 +286,7 @@ EX:
   - Alguns caracteres como "$", "#" e "_" são permitidos em alguns bancos de  dados.
 
 # Os nomes de colunas devem ser únicos dentro de uma tabela.
-# Os nomes de entidades / tabelas devem ser únicos dentro do sistema.
+# Os nomes de entidades / tabelas devem ser únicos dentro do esquema.
 	
 
 
