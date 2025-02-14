@@ -272,7 +272,14 @@ EX: Empregados, Livros, Vendas, Produtos.
 EX:
 +--------+
 |        | 
-|CLIENTE | 
+|CLIENTE | 				
+|        |
+|        |
++--------+
+
++--------+
+|        | 
+|PRODUTO | 
 |        |
 |        |
 +--------+
