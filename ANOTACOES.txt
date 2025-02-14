@@ -328,6 +328,15 @@ ________________________________________________________________________________
 * ATRIBUTOS:
 - Os atributos descrevem características da entidade, como por exemplo: fabricante, modelo, cor, placa, etc.
 - Os atributos possuem um tipo de dados (domínio) nome e valor específico.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* REPRESENTANDO ATRIBUTOS:
+- Os atributos podem ser representados por uma elipse contendo o seu nome, ligada à entidade que qualifica.
+- Opcionalmente, podemos representar um atributo apenas pelo seu nome ligado à entidade, sem utilizar a elipse.
+
+Departamento----------Função (com elipse)
+
+Departamento------Função (sem elipse)
 
 	
 
