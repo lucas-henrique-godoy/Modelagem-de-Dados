@@ -288,7 +288,7 @@ EX:
 # Os nomes de colunas devem ser únicos dentro de uma tabela.
 # Os nomes de entidades / tabelas devem ser únicos dentro do esquema.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-* INSTÂNCIA DE ENTIDADE: Uma entidade em si é uma descrição da estrutura e formato das ocorrências da entidade, como uma "receita", ou "planta". Uma instância de entidade é uma ocorrência específica de uma entidade.
+* INSTÂNCIA DE ENTIDADE: Uma entidade em si é uma descrição da estrutura e formato das ocorrências da entidade, como uma "receita", ou "planta". Uma instância de entidade é uma ocorrência específica de uma entidade. Instância da entidade são as linhas(os registros).
 EX:
 
 (Classe de) Entidade 
