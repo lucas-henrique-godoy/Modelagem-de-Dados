@@ -365,6 +365,8 @@ EMPRESA-------ENDEREÇO---Rua.
 * ATRIBUTO MULTIVALORADO: Pode conter mais de um valor para um mesmo registro (informação).
 Ex.: Telefone da empresa.
 EMPRESA------*Telefone
+
+OBS: Atributo multivalorado geralmente é reresentado com um * na frente. EX.: *Telefone.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 *ATRIBUTO DETERMINANTE: Define de forma única as instâncias de uma entidade. Não podem existir duas instâncias com o mesmo valor nesse atributo.
@@ -391,8 +393,11 @@ As chaves podem ser compostas, consistindo de dois ou mais atributos combinados.
 | cod_produto (PK) |
 | nome_produto     |
 | Preço            |
-| QdeEstoque       |
+| Qtde_Estoque     |
 +------------------+
+
+*PODEMOS TAMBÉM REPRESENTAR UMA ENTIDADE DE FORMA TEXTUAL:
+Produto(Cod_Produto, Nome_Produto, Preço, Qtde_Estoque)
 
 
 
