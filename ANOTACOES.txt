@@ -419,6 +419,37 @@ Características de uma relação:
 - Não há duas linhas idênticas.
 - As relações geralmente geram tabelas no banco.
 
+* EXEMLO DE UMA RELAÇÃO:
+		
+		Produto
++------------+----------------+--------------+
+| ID_Produto | Nome_Produto   | Preco_Produto|
++------------+----------------+--------------+
+| 1000       | Mouse          | 15,00        |
+| 1001       | Teclado        | 20,00        |
+| 1002       | Webcam         | 65,00        |
++------------+----------------+--------------+
+
+OBS: "TODA RELAÇÃO É UMA TABELA, MAS NEM TODA TABELA ÉUMA RELAÇÃO".
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* RELAÇÃO - EXEMPLO COMPLETO:
+
++------------+---------------------+--------------+----------------+-------------+
+| cod_produto| mercadoria          | qtde_estoque | fornecedor     | validade    |
++------------+---------------------+--------------+----------------+-------------+
+| 189        | Azeitonas Pretas     | 50           | 05             | 02/08/2017  |
+| 222        | Peixe Congelado      | 26           | 08             | 22/09/2016  |
+| 236        | Enlatado             | 48           | 07             | 03/04/2018  |
++------------+---------------------+--------------+----------------+-------------+
+PK = cod_produto
+FK = fornecedor (referência à tabela Fornecedor)
+_______________________________________________________________________________________________________________________________________________________________________
+
+* O QUE SÃO RELACIONAMNETOS?
+- As Entidades podem ser conectadas entre si por meio de Relacionamentos. Trata-se de uma estrutura que indica a associação de elementos de uma ou mais entidades.
+
+
 
 
 
