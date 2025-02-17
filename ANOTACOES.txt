@@ -360,6 +360,12 @@ EMPRESA-------ENDEREÇO---Rua.
 		      ---CEP.
                       ---Bairro.	
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* ATRIBUTO MULTIVALORADO: Pode conter mais de um valor para um mesmo registro (informação).
+Ex.: Telefone da empresa.
+EMPRESA------*Telefone
+
 	
 
 
