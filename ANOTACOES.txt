@@ -398,6 +398,13 @@ As chaves podem ser compostas, consistindo de dois ou mais atributos combinados.
 
 *PODEMOS TAMBÉM REPRESENTAR UMA ENTIDADE DE FORMA TEXTUAL:
 Produto(Cod_Produto, Nome_Produto, Preço, Qtde_Estoque)
+_______________________________________________________________________________________________________________________________________________________________________
+
+* COMPARAÇÃO ENTRE ENTIDADES ERELAÇOES: ENTIDADESX RELAÇÃO:
+- Uma entidade é um conceito do mundo real, como por exemplo um Cliente ou um Produto.
+- Uma Relação é um conjunto de registros(tuplas), que representam um modelo de uma entidade.
+- Cada registro representa uma instância de entidade, e o conjunto de todas as instâncias, com seus atributos, é chamado de Relação.
+
 
 
 
