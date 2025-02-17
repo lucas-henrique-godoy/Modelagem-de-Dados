@@ -378,8 +378,8 @@ OBS: Atributo determinante geralmente é representado sublinhado.
 * ATRIBUTOS IDENTIFICADORES("CHAVES"): Uma chave identifica uma instância específica na classe de entidade.
 Ex.: CPF, CódigoProduto, Matrícula, ID_Setor.
 As chaves podem ser únicas ou não-únicas:
-- Únicas: O valor dos dados da chave é único na entidade.
-- Não-única: Usada para agrupar instâncias de classe em categorias.
+- Únicas: O valor dos dados da chave é único na entidade.Ex: cpf.
+- Não-única: Usada para agrupar instâncias de classe em categorias.Ex: chave estrangeira.
 As chaves podem ser compostas, consistindo de dois ou mais atributos combinados.
 
 
