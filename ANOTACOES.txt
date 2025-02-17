@@ -453,7 +453,23 @@ ________________________________________________________________________________
 * POR QUE  PRECISAMOS DE REELACIONAMENTOS?
 - Como os dados de diferentes entidades são armazenados em tabelas distintas, geralmente precisamos combinar duas ou ais tabelas para responder às perguntas específicas dos usuários.
 - Por exemplo, podemos querer saber quais produtos,  e em qual quantidade, foram adquiridos por um cliente em particular. precisaremos então de dados das tabelas de clientes, de pedidos e produtos para obter essa informação.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+*REPRESENTANDO RELACIONAMENTOS:
+- Representamos um Relacionamento em um DER por meio de um Losango que conecta uma ou mais Entidades.
+
++-------------------+   
+|   Entidade A      |   
++-------------------+   
+         |             
+         |             
+   ______|_________
+  /                \
+ /                  \
+/   Relacionamento   \
+\                    /
+ \                  /
+  \________________/
 
 
 
