@@ -369,7 +369,10 @@ EMPRESA------*Telefone
 
 *ATRIBUTO DETERMINANTE: Define de forma única as instâncias de uma entidade. Não podem existir duas instâncias com o mesmo valor nesse atributo.
 Ex.: CNPJ da empresa, Código de Produto.
-EMPRESA------(CNPJ)
+EMPRESA------(CNPJ) 
+             ------
+
+OBS: Atributo determinante geralmente é representado grifado.
 
 	
 
