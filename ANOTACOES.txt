@@ -408,7 +408,7 @@ ________________________________________________________________________________
 
 *RELAÇÃO: Tabela bidimensional com  características específicas, composta por linhas e colunas, criada a partir de uma entidade.
 Características de uma relação:
--Linhas contém dados sobre instâncias  de uma entidade(registros).
+- Linhas contém dados sobre instâncias  de uma entidade(registros).
 - Colunas contém dados sobre atributos da entidade(campos).
 
 
