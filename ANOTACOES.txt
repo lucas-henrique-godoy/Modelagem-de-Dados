@@ -352,6 +352,13 @@ entre outros.
 
 Ex.: Nome da empresa, CPF, CNPJ.
 EMPRESA -------(NOME)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* ATRIBUTO COMPOSTO: É formado por itens menores, pode ser subdividido em outros atributos.
+Ex.: Endereço da empresa.
+EMPRESA-------ENDEREÇO---Rua.
+		      ---CEP.
+                      ---Bairro.	
 
 	
 
