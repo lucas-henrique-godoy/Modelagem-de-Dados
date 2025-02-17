@@ -448,6 +448,11 @@ ________________________________________________________________________________
 
 * O QUE SÃO RELACIONAMNETOS?
 - As Entidades podem ser conectadas entre si por meio de Relacionamentos. Trata-se de uma estrutura que indica a associação de elementos de uma ou mais entidades.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* POR QUE  PRECISAMOS DE REELACIONAMENTOS?
+- Como os dados de diferentes entidades são armazenados em tabelas distintas, geralmente precisamos combinar duas ou ais tabelas para responder às perguntas específicas dos usuários.
+- Por exemplo, podemos querer saber quais produtos,  e em qual quantidade, foram adquiridos por um cliente em particular. precisaremos então de dados das tabelas de clientes, de pedidos e produtos para obter essa informação.
 
 
 
