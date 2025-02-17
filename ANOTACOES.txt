@@ -382,6 +382,21 @@ As chaves podem ser únicas ou não-únicas:
 - Não-única: Usada para agrupar instâncias de classe em categorias.Ex: chave estrangeira.
 
 As chaves podem ser compostas, consistindo de dois ou mais atributos combinados.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* EXEMPLOS DE REPRESENTAÇÃO DE ENTIDADES E ATRIBUTOS:
++------------------+
+|     Produto      |
++------------------+
+| cod_produto (PK) |
+| nome_produto     |
+| Preço            |
+| QdeEstoque       |
++------------------+
+
+
+
+
 
 
 	
