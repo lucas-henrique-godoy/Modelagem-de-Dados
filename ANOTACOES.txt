@@ -372,7 +372,8 @@ Ex.: CNPJ da empresa, Código de Produto.
 EMPRESA------(CNPJ) 
              ------
 
-OBS: Atributo determinante geralmente é representado grifado.
+OBS: Atributo determinante geralmente é representado sublinhado.
+
 
 	
 
