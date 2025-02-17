@@ -365,6 +365,11 @@ EMPRESA-------ENDEREÇO---Rua.
 * ATRIBUTO MULTIVALORADO: Pode conter mais de um valor para um mesmo registro (informação).
 Ex.: Telefone da empresa.
 EMPRESA------*Telefone
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*ATRIBUTO DETERMINANTE: Define de forma única as instâncias de uma entidade. Não podem existir duas instâncias com o mesmo valor nesse atributo.
+Ex.: CNPJ da empresa, Código de Produto.
+EMPRESA------(CNPJ)
 
 	
 
