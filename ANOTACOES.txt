@@ -410,6 +410,14 @@ ________________________________________________________________________________
 Características de uma relação:
 - Linhas contém dados sobre instâncias  de uma entidade(registros).
 - Colunas contém dados sobre atributos da entidade(campos).
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*RELAÇÃO - CARACTERÍSTIAS - CONTINUAÇAO
+- Cada célula da tabela armazena um único valor.
+- Todos os valores em uma coluna são do mesmo tipo(domínio).
+- Cada coluna possui um nome único.
+- Não há duas linhas idênticas.
+- As relações geralmente geram tabelas no banco.
 
 
 
