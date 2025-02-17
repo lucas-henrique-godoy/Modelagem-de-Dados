@@ -414,7 +414,7 @@ Características de uma relação:
 
 *RELAÇÃO - CARACTERÍSTIAS - CONTINUAÇAO
 - Cada célula da tabela armazena um único valor.
-- Todos os valores em uma coluna são do mesmo tipo(domínio).
+- Todos os valores em uma coluna são do mesmo tipo(domínio de dados).
 - Cada coluna possui um nome único.
 - Não há duas linhas idênticas.
 - As relações geralmente geram tabelas no banco.
