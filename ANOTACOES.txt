@@ -591,6 +591,12 @@ EX.: Campos Num_Matrícula e CPF em uma tabela de registros de alunos.
 - Valor numérico, único, adicionado a uma relação para servir como chave primária.
 - Não  possui significado para os usuários e geralmente fica escondida nas aplicações.
 - As chaves substitutas são frequentemente usadas no lugar de uma chave primária composta.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* INSTRUÇÕES PARA CRIAÇÃO DE CHAVES PRIMÁRIAS E ESTRANGEIRAS
+- Não é possível haver valores duplicados em uma chave primária.
+- No geral, não é possível alterar o valor de uma chave primária.
+- Chaves estrangeiras são baseadas em valores de dados, classificadas como ponteiros lógicos.
 
 
 
