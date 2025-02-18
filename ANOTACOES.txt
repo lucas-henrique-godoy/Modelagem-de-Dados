@@ -575,6 +575,11 @@ EX.: Campos Num_Matrícula e CPF em uma tabela de registros de alunos.
 - Chave candidata escolhida para ser a chave principal na relação.
 - Identifica de forma exclusiva os registros em uma tabela, não podendo ter repetição de valores, nem tampouco valor nulo.
 - Primary Key / PK.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Chave Estrangeira
+- Coluna de uma tabela que estabelece um Relacionamento com a Chave Primária(PK) de outra tabela.
+- É a partir da chave estrangeira (Foreign Key/ FK) que sabemos com qual registro em outra tabela um registro esta relacionado.
 
 
 
