@@ -551,6 +551,12 @@ ________________________________________________________________________________
                                  +-------------------+
 
 O grau de um Relacionamento indicia o número de entidades envolvidas no relacionamento como por exemplo unário, binário e ternário.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* EFETUANDO RELACIONAMENTO ENTRE MÚLTIPLAS TABELAS
+- Cada linha de dados em uma tabela deve ser identificada de forma única usando-se uma Chave Primária(identificador exclusivo).
+- Usamos uma Chave Estrangeira para relacionar os dados entre múltiplas tabelas.
+- Usamos para isso o relacionamento entre chave primária de uma tabela com a chave estrangeira em outra tabela.
 
 
 
