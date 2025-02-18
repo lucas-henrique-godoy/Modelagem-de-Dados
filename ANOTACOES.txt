@@ -673,7 +673,8 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________________________________________________________________________
 
 * CARDINALIDADE: A cardinalidade diz respeito ao número de itens que se relacionam nas entidades. A cardinalidade pode ser máxima ou mínima, significando respectivamente os números mínimo e máximo de instâncias de cada entidade associadas no relacionamento.
-- Cardinalidade Máxima: Trata-se do número máximo de instâncias de entidade que podem participar em um relacionamento. Pode ser 1 ou N(muitos).
+
+- Cardinalidade Máxima: Trata-se do número máximo de instâncias de entidade que podem participar em um relacionamento. Pode ser 1 ou N (muitos).
 
 - Cardinalidade Mínima: Número mínimo de instâncias de entidade que devem obrigatoriamente participar em um relacionamento; zero é participação opcional e um é obrigatória.
 
