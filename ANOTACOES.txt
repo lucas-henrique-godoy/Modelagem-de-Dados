@@ -533,9 +533,9 @@ Os relacionamentos mais comuns são os de grau 2(binários).
                   \                     |                     /
                    +--------------------+--------------------+
                                         |
-                                    +-----v------+
-                                    |  Prescreve |
-                                    +------------+
+                                  +-----v------+
+                                  |  Prescreve |
+                                  +------------+
 
 
 
