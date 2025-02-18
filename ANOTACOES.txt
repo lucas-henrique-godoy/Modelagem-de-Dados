@@ -569,6 +569,12 @@ Pode ser única (identifica uma única linha) ou não-unica (identifica um conju
 - Atributo ou grupo de atributos com o potencial para se tornarem uma chave primária.
 - Uma chave candidata que não seja usada como chave primária será conhecida como Chave Alternativa.
 EX.: Campos Num_Matrícula e CPF em uma tabela de registros de alunos.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Chave Primária
+- Chave candidata escolhida para ser a chave principal na relação.
+- Identifica de forma exclusiva os registros em uma tabela, não podendo ter repetição de valores, nem tampouco valor nulo.
+- Primary Key / PK.
 
 
 
