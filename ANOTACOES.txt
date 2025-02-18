@@ -560,7 +560,7 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________________________________________________________________________
 
 * CHAVES: Uma chave consiste em uma ou mais colunas de uma relação cujos valores são usados para identificar de forma exclusiva uma linha ou conjunto de linha.
-Pode ser única (identifica uma única linha) ou não-unica (identifica um conjunto de linhas).
+Pode ser única (identifica uma única linha) ou não-única (identifica um conjunto de linhas).
 - Únicas (Unique): Candidata, Composta, Primária, Surrogada(substituta).
 - Não-úncia (Non-Unique): Estrangeira.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -580,6 +580,7 @@ EX.: Campos Num_Matrícula e CPF em uma tabela de registros de alunos.
 * Chave Estrangeira
 - Coluna de uma tabela que estabelece um Relacionamento com a Chave Primária(PK) de outra tabela.
 - É a partir da chave estrangeira (Foreign Key/ FK) que sabemos com qual registro em outra tabela um registro esta relacionado.
+
 
 
 
