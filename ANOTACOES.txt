@@ -599,6 +599,59 @@ ________________________________________________________________________________
 - Chaves estrangeiras são baseadas em valores de dados, classificadas como ponteiros lógicos.
 - Um valor de uma chave estrangeira deve corresponder a um valor existente em uma chave primária associada (ou valor de chave única). Caso contrário, deve ser nulo (NULL).
 - Uma chave estrangeira deve referenciar uma chave primária ou uma coluna de chave única.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* EXEMPLO DE CHAVE PRIMÁRIA E CHAVE ESTRANGEIRA:
+
+Aqui está uma representação simples de como seriam as tabelas Clientes, Vendas e Produtos, com as chaves primárias (PK) e chaves estrangeiras (FK) usando caracteres:
+
+Tabela Clientes
++------------------+
+|    Clientes      |
++------------------+
+| cliente_id (PK)  |  <-- Chave primária
+| nome             |
+| email            |
+| telefone         |
+| endereco         |
++------------------+
+
+
+Tabela Produtos
++------------------+
+|    Produtos      |
++------------------+
+| produto_id (PK)  |  <-- Chave primária
+| nome_produto     |
+| preco            |
+| estoque          |
++------------------+
+
+
+Tabela Vendas
++------------------+
+|     Vendas       |
++------------------+
+| venda_id (PK)    |  <-- Chave primária
+| data_venda       |
+| valor_total      |
+| cliente_id (FK)  |  <-- Chave estrangeira (referencia Cliente)
+| produto_id (FK)  |  <-- Chave estrangeira (referencia Produto)
++------------------+
+Explicação:
+Cliente (cliente_id):
+
+A tabela Clientes tem cliente_id como chave primária. Este campo é único para cada cliente e identifica de forma exclusiva cada registro.
+Produto (produto_id):
+
+A tabela Produtos tem produto_id como chave primária, que também é única para cada produto.
+Vendas (venda_id):
+
+A tabela Vendas tem venda_id como chave primária. Além disso, ela contém chaves estrangeiras (cliente_id e produto_id), que referenciam as tabelas Clientes e Produtos, respectivamente.
+cliente_id (FK) indica a quem a venda pertence (qual cliente fez a compra).
+produto_id (FK) indica qual produto foi vendido.
+Essa estrutura cria um relacionamento entre as tabelas, permitindo que você recupere facilmente dados de clientes, produtos e vendas de forma integrada.
+
 
 
 
