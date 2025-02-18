@@ -585,6 +585,12 @@ EX.: Campos Num_Matrícula e CPF em uma tabela de registros de alunos.
 * Chave Composta
 - Chave que é composta de dois ou mais atributos(colunas).
 - Geralmente empregada quando não é possível utilizar uma única coluna de uma tabela para identificar de forma exclusiva seus registros.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Chave Surrogada/Substituta
+- Valor numérico, único, adicionado a uma relação para servir como chave primária.
+- Não  possui significado para os usuários e geralmente fica escondida nas aplicações.
+- As chaves substitutas são frequentemente usadas no lugar de uma chave primária composta.
 
 
 
