@@ -557,6 +557,12 @@ ________________________________________________________________________________
 - Cada linha de dados em uma tabela deve ser identificada de forma única usando-se uma Chave Primária(identificador exclusivo).
 - Usamos uma Chave Estrangeira para relacionar os dados entre múltiplas tabelas.
 - Usamos para isso o relacionamento entre chave primária de uma tabela com a chave estrangeira em outra tabela.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* CHAVES: Uma chave consiste em uma ou mais colunas de uma relação cujos valores são usados para identificar de forma exclusiva uma linha ou conjunto de linha.
+Pode ser única (identifica uma única linha) ou não-unica (identifica um conjunto de linhas).
+- Únicas (Unique): Candidata, Composta, Primária, Surrogada.
+- Não-úncia (Non-Unique): Estrangeira.
 
 
 
