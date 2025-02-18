@@ -670,6 +670,9 @@ ________________________________________________________________________________
 |---------------------------------------------------| 
 | Data_Nasc    | Data e Hora     | 8 caracteres     |
 +---------------------------------------------------+
+_______________________________________________________________________________________________________________________________________________________________________
+
+* CARDINALIDADE: A cardinalidade diz respeito ao número de itens que se relacionam nas entidades. A cardinalidade pode ser máxima ou mínima, significando respectivamente os números mínimo e máximo de instâncias de cada entidade associadas no relacionamento.
 
 
 
