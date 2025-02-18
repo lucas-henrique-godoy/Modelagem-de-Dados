@@ -677,8 +677,13 @@ ________________________________________________________________________________
 - Cardinalidade Máxima: Trata-se do número máximo de instâncias de entidade que podem participar em um relacionamento. Pode ser 1 ou N (muitos).
 
 - Cardinalidade Mínima: Número mínimo de instâncias de entidade que devem obrigatoriamente participar em um relacionamento; zero é participação opcional e um é obrigatória.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* SIMBOLOGIA PARA CARDINALIDADES.
+- Usando a notação de Peter Chen:
 
+Cardinalidade Mínima ----> (1, 1) -------> Cardinalidade Máxima
+			      [ENTIDADE]
 
 
 
