@@ -651,7 +651,23 @@ A tabela Vendas tem venda_id como chave primária. Além disso, ela contém chav
 cliente_id (FK) indica a quem a venda pertence (qual cliente fez a compra).
 produto_id (FK) indica qual produto foi vendido.
 Essa estrutura cria um relacionamento entre as tabelas, permitindo que você recupere facilmente dados de clientes, produtos e vendas de forma integrada.
+_______________________________________________________________________________________________________________________________________________________________________
 
+* O CONCEITO DE DOMÍNIO
+- Definir tipos de dados.
+- Especificar valores válidos em um campo.
+
++---------------------------------------------------+
+|	           tbl_Clientes                     |
+|---------------------------------------------------|
+| Campo	      |	Tipo de Dado    | Tamanho           |
+| --------------------------------------------------|
+| ID_Cliente  | Número          | 4 caracteres      | 
+| --------------------------------------------------|
+|Nome_Cliente | Caractere       | 40 caracteres     |
+| --------------------------------------------------|
+| CPF_Cliente | Caractere       | 11 caracteres     | 
++---------------------------------------------------+
 
 
 
