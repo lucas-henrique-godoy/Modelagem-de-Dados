@@ -448,6 +448,14 @@ ________________________________________________________________________________
 
 * O QUE SÃO RELACIONAMNETOS?
 - As Entidades podem ser conectadas entre si por meio de Relacionamentos. Trata-se de uma estrutura que indica a associação de elementos de uma ou mais entidades.
+- No modelo Entidade-Relacionamento (ER), os relacionamentos entre as entidades são frequentemente representados por verbos ou frases verbais para descrever a ação ou a interação entre as entidades. Esses verbos ajudam a dar sentido ao relacionamento e a entender como as entidades estão conectadas.
+
+Por exemplo:
+
+Funcionário trabalha em Setor
+Aluno faz matrícula em Curso
+Cliente realiza compra em Loja
+O verbo descreve a ação que liga as entidades e fornece um contexto claro sobre o que está acontecendo no relacionamento.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * POR QUE  PRECISAMOS DE REELACIONAMENTOS?
