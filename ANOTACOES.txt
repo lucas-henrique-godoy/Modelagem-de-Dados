@@ -597,6 +597,8 @@ ________________________________________________________________________________
 - Não é possível haver valores duplicados em uma chave primária.
 - No geral, não é possível alterar o valor de uma chave primária.
 - Chaves estrangeiras são baseadas em valores de dados, classificadas como ponteiros lógicos.
+- Um valor de uma chave estrangeira deve corresponder a um valor existente em uma chave primária associada (ou valor de chave única). Caso contrário, deve ser nulo (NULL).
+- Uma chave estrangeira deve referenciar uma chave primária ou uma coluna de chave única.
 
 
 
