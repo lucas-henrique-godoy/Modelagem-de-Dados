@@ -536,8 +536,21 @@ Os relacionamentos mais comuns são os de grau 2(binários).
                                   +-----v------+
                                   |  Prescreve |
                                   +------------+
+_______________________________________________________________________________________________________________________________________________________________________
 
 
+* RELACIONAMENTO ENTRE TABELAS: Uma tabela é relacionada com outras tabelas. Por exemplo, um produto é vendido em uma loja.
+
++------------------+             +-------------------+
+|     Cliente      |             |      Vendas       |
++------------------+             +-------------------+
+| ID_Cliente       |<-----------+| ID_Venda          |
+| Nome_Cliente     |             | ID_Cliente        |
+| CPF              |             | ID_Produto        |
++------------------+             | Data_Venda        |
+                                 +-------------------+
+
+O grau de um Relacionamento indicia o número de entidades envolvidas no relacionamento como por exemplo unário, binário e ternário.
 
 
 
