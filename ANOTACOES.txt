@@ -489,19 +489,21 @@ Os relacionamentos mais comuns são os de grau 2(binários).
 * RELACIONAMENTO UNÁRIO(RECURSIVO) OU AUTO-RELACIONAMENTO.
 
 +-------------------+   
-|       Pessoa      |   
-+-------------------+   
-         |             
-         |             
-   ______|_________
-  /                \
- /                  \
-/     Se Casa        \
-\                    /
- \                  /
-  \________________/
-
-
+|       Pessoa      |________ 
++-------------------+        |
+         |                   |
+         |                   |
+   ______|_________          |
+  /                \         |
+ /                  \        |
+/     Se Casa        \       |
+\                    /       |
+ \                  /        |
+  \________________/         |
+	|		     |	
+	|		     |	
+	|		     | 
+	|____________________|
 
 
 
