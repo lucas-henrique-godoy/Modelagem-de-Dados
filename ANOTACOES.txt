@@ -580,6 +580,12 @@ EX.: Campos Num_Matrícula e CPF em uma tabela de registros de alunos.
 * Chave Estrangeira
 - Coluna de uma tabela que estabelece um Relacionamento com a Chave Primária(PK) de outra tabela.
 - É a partir da chave estrangeira (Foreign Key/ FK) que sabemos com qual registro em outra tabela um registro esta relacionado.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Chave Composta
+- Chave que é composta de dois ou mais atributos(colunas).
+- Geralmente empregada quando não é possível utilizar uma única coluna de uma tabela para identificar de forma exclusiva seus registros.
+
 
 
 
