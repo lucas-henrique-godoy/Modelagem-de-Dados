@@ -716,6 +716,7 @@ Uma instância de entidade única em uma entidade está relacionada com uma inst
 _______________________________________________________________________________________________________________________________________________________________________
 
 * RELACIONAMENTO BINÁRIO UM-PARA-MUITOS: 1:N
+Uma instância de entidade única em uma classe de entidade está relacionada a muitas instâncias de entidade em outra classe de entidade.
 			   
 				-
 			    
