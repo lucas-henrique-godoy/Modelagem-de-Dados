@@ -678,7 +678,7 @@ ________________________________________________________________________________
 
 - Cardinalidade Mínima: Número mínimo de instâncias de entidade que devem obrigatoriamente participar em um relacionamento; zero é participação opcional e um é obrigatória.
 
--OBS: A cardinalidade de um banco de dados depende da regra de negócio que a empresa utiliza para modelar seus bancos, e não apenas pela intuição ou preferências pessoais do modelador. Ou seja, A cardinalidade de um banco de dados depende das regras de negócio da empresa, e nem sempre a modelagem será feita com base no bom senso. A modelagem eficaz deve refletir as necessidades e a lógica do negócio. 
+-OBS: A cardinalidade de um banco de dados depende da regra de negócio que a empresa utiliza para modelar seus bancos, e não apenas pela intuição ou preferências pessoais do modelador. Ou seja, A cardinalidade de um banco de dados depende das regras de negócio da empresa, e nem sempre a modelagem será feita com base no bom senso. A modelagem eficaz deve refletir as necessidades e a lógica do negócio. Devemos modelar de acordo com o que a empresa precisa.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * SIMBOLOGIA PARA CARDINALIDADES
@@ -713,7 +713,7 @@ Uma instância de entidade única em uma entidade está relacionada com uma inst
 				
 						   
   			    +------------------+ (1,1)  Usa   (1,1)+------------------+
-			    |     professor    |-------------------|     armário      |
+			    |     Professor    |-------------------|     Armário      |
 			    +------------------+                   +------------------+
 
 - Um professor usa quantos armários por vez? R: Um professor usa no mínimo 1 armário, e no máximo 1 armário.
@@ -722,15 +722,30 @@ Uma instância de entidade única em uma entidade está relacionada com uma inst
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * RELACIONAMENTO BINÁRIO UM-PARA-MUITOS: 1:N
+
 Uma instância de entidade única em uma classe de entidade está relacionada a muitas instâncias de entidade em outra classe de entidade.
 			   
 			    +------------------+ (1,N)   trabalha    (1,1) +------------------+
-			    |     funcionário  |---------------------------|  Departamento    |
+			    |     Funcionário  |---------------------------|  Departamento    |
 			    +------------------+                           +------------------+
-				-
+				
 			    
 - Um funcionário pode trabalhar em quantos departamentos? R: No mínimo obrigatoriamente em 1 e no máximo em 1.
 - Em um departamento, quantos funcionários trabalham? R: No mínimo obrigatoriamente em 1(pois o departamento não pode estar vazio) e no máximo N(muitos), ou seja pode haver vários funcionários em um departamento.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* RELACIONAMENTO BINÁRIO MUITOS-PARA-MUITOS: N:M
+
+Muitas instâncias em uma entidade estão relacionadas a muitas instâncias de entidade em outra entidade.
+
+		          +------------------+ (1,N)   adquire    (1,N)  +------------------+
+			  |     Cliente      |---------------------------|     Pacote       |
+			  +------------------+                           +------------------+
+
+- Um Cliente pode adquirir quantos pacotes? R: Um cliente pode adquirir no  mínimo 1 ou N(muitos) pacotes.
+- Um pacote pode ser adquirido por quantos Clientes? R: 
+
+
 			  		 
 			  
 			      
