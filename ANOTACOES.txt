@@ -703,12 +703,17 @@ Cardinalidade Mínima ----> (1, 1) -------> Cardinalidade Máxima
 - Cardinalidade Mínima: Um cliente para uma encomenda (1,1).
 
 - Cardinalidade Máxima: Um cliente para muitas encomendas (1, N).
+_______________________________________________________________________________________________________________________________________________________________________
+
+* RELACIONAMENTO BINÁRIO UM-PARA-UM.
+1:1
+Uma instância de entidade única em uma entidade está relacionada com uma instância de entidade única em outra entidade.
 
 				-
 			    
 
+			  		 
 			  
-			   
 			      
 
 
