@@ -700,8 +700,9 @@ Cardinalidade Mínima ----> (1, 1) -------> Cardinalidade Máxima
 			    |     Cliente      |-----------|     Encomenda    |
 			    +------------------+           +------------------+
 
-- Cardinalidade Mínima: Um cliente para uma encomenda (1,1)
-- Cardinalidade Máxima: Um cliente para muitas encomendas (1, N)
+- Cardinalidade Mínima: Um cliente para uma encomenda (1,1).
+
+- Cardinalidade Máxima: Um cliente para muitas encomendas (1, N).
 
 				-
 			    
