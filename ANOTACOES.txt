@@ -769,6 +769,18 @@ EX.: em uma coluna que armazena preços de mercadorias, os valores admitidos sã
 - Intervalos de valores no domínio.
 - Conjuntos de valores discretos.
 
+* INTEGRIDADE DE DOMÍNIO - EXEMPLO:
+
+Atributo Preço do Produto: Valor Monetário
+- Valor permitido: 25,33
+   
+- Valores não permitidos:
+  25 Reais e 33 centavos  (escrito por extenso também não é permitido, pois foge da restrição, pois além do valor monetário esta sendo usado texto. )
+  ou -32,33 (também não é permitido, pois Preço do Porduto não pode ser negativo)
+  
+
+
+
 			  		 
 			  
 			      
