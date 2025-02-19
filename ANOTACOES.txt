@@ -705,10 +705,18 @@ Cardinalidade Mínima ----> (1, 1) -------> Cardinalidade Máxima
 - Cardinalidade Máxima: Um cliente para muitas encomendas (1, N).
 _______________________________________________________________________________________________________________________________________________________________________
 
-* RELACIONAMENTO BINÁRIO UM-PARA-UM.
-1:1
-Uma instância de entidade única em uma entidade está relacionada com uma instância de entidade única em outra entidade.
+* RELACIONAMENTO BINÁRIO UM-PARA-UM: 1:1
 
+Uma instância de entidade única em uma entidade está relacionada com uma instância de entidade única em outra entidade.
+				
+						   
+  			    +------------------+ (1,1)  Usa   (1,1)+------------------+
+			    |     professor    |-------------------|     armário      |
+			    +------------------+                   +------------------+
+_______________________________________________________________________________________________________________________________________________________________________
+
+* RELACIONAMENTO BINÁRIO UM-PARA-MUITOS: 1:N
+			   
 				-
 			    
 
