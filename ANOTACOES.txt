@@ -750,6 +750,13 @@ Muitas instâncias em uma entidade estão relacionadas a muitas instâncias de e
 
 - INTEGRIDADE DE DADOS: Manutenção e garantia da consistência e precisão(acurácia) dos dados, sendo um aspecto crítico no design, implementação e uso de sistemas de armazenamento de dados.
 A integridade é atingida por meio da aplicação de Restrições de Integridade.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* 5 TIPOS DE RESTRIÇÕES DE INTEGRIDADE:
+- Integridade Referencial.
+- Integridade de Domínio.
+- Integridade de Vazio.
+- Integridade de Chave.
+- Integridade Definida pelo Usuário.
 
 
 			  		 
