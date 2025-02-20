@@ -854,6 +854,15 @@ Ferramentas CASE:
 - Microsoft Visio
 - MySQL Workbench
 - Visual Paradigm
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*DIAGRAMAÇÃO - PETER CHEN: A notação de Peter Chen para DER utiliza retângulos para representar Entidades, e losangos para os Relacionamentos. Atributos são representados por elipses.
+
+Nome -------------  +-------------------+   +-------------------+   +-------------------+
+ID_Setor----------  |   Funcionário     |---|   Trabalha        |---|      Setor        |----- ID_Setor
+Cargo ------------  +-------------------+   +-------------------+   +-------------------+
+
+
 
 
 
