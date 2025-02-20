@@ -776,7 +776,7 @@ Atributo Preço do Produto: Valor Monetário
    
 - Valores não permitidos:
   25 Reais e 33 centavos  (escrito por extenso também não é permitido, pois foge da restrição, pois além do valor monetário esta sendo usado texto. )
-  ou -32,33 (também não é permitido, pois Preço do Porduto não pode ser negativo)
+  ou -32,33 (também não é permitido, pois Preço do Produto não pode ser negativo)
   
 
 
