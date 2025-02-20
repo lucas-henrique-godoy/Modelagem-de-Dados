@@ -776,7 +776,11 @@ Atributo Preço do Produto: Valor Monetário
    
 - Valores não permitidos:
   25 Reais e 33 centavos  (escrito por extenso também não é permitido, pois foge da restrição, pois além do valor monetário esta sendo usado texto. )
-  ou -32,33 (também não é permitido, pois Preço do Produto não pode ser negativo)
+  ou -32,33 (também não é permitido, pois Preço do Produto não pode ser negativo).
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* INTEGRIDADE REFERENCIAL: Uma restrição de Integridade Referencial assegura que valores de uma coluna em uma tabela são válidos baseados nos valores em uma outra tabela relacionada.
+EX.: Se um produto de ID 523 foi cadastrado em uma tabela de Vendas, então um produto com ID 523 deve existir na tabela de Produtos relacionada.
   
 
 
