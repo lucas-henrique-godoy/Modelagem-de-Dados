@@ -894,7 +894,7 @@ No diagrama Pé-de-Galinha, as cardinalidades são representadas da seguinte for
 _______________________________________________________________________________________________________________________________________________________________________
 
 * DICIONÁRIO DE DADOS: Um dicionário e dados é um documento usado para armazenar informações sobre o conteúdo, formato e a estrutura de um banco de dados, assim como os relacionamentos entre os seus elementos.
-É importante manter um dicionário de dados para limitar erros ao criar a estrutura física do banco de dados no computador. Também chamado de "Repositório de Metadados". 
+É importante manter um dicionário de dados para limitar erros ao criar a estrutura física do banco de dados no computador. Também chamado de "Repositório de Metadados"(explicações sobre os dados). 
 
 +-----------------+------------------+------------------------+----------------------------------------------------------+
 | Tabela          | Relacionamento   | Nome do Relacionamento | Descrição                                                |
