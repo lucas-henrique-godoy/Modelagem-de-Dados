@@ -817,6 +817,11 @@ Nem todo aluno possui telefone, portanto esse campo não é obrigatório (atribu
 | 111        | Márcio            | Zanori            | (11) 26533211    | 01/03/1983          |
 | 112        | Renato            | Marconi           | NULL             | 14/11/1985          |
 +------------+-------------------+-------------------+------------------+---------------------+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* INTEGRIDADE DE CHAVE: Os valores inseridos na coluna de chave primária (PK) devem ser sempre únicos, não admitindo-se repetições nesses valores.
+Desta forma, as tuplas (registros) serão sempre distintas.
+Os valores de chave primária também não podem ser nulos.
 
 
  
