@@ -826,6 +826,13 @@ Os valores de chave primária também não podem ser nulos.
 
 * INTEGRIDADE DEFINIDA PELO USUÁRIO: Diz respeito a regras de negócio específicas que são definidas pelo usuário do banco de dados.
 Por exemplo, pode-se definir que uma coluna somente aceitará um conjunto restrito de valores.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* NOTAÇÕES GRÁFICAS E DIAGRAMAÇÃO:
+
+-DIAGRAMAÇÃO: O Diagrama Entidade Relacionamento é a representação gráfica de um MER, que é um modelo conceitual. O uso de um diagrama facilita a modelagem e a comunicação entre os membros da equipe de desenvolvimento, permitindo que todos falem a mesma "língua" durante o processo.
+A notação original do DER foi proposta por Peter Chen.
+
 
 
  
