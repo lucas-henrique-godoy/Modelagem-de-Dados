@@ -841,6 +841,19 @@ As notações gráficas mais utilizadas em modelagem de dados são:
 - Martin
 - UML
 - Peter Chen
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* SOFTWARES PARA DIAGRAMAÇÃO
+Ferramentas CASE:
+- Astah
+- Lucidchart
+- erwin Data Modeler
+- ERDPlus
+- GenMyModel
+- Star UML
+- Microsoft Visio
+- MySQL Workbench
+- Visual Paradigm
 
 
 
