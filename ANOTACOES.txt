@@ -822,6 +822,10 @@ Nem todo aluno possui telefone, portanto esse campo não é obrigatório (atribu
 * INTEGRIDADE DE CHAVE: Os valores inseridos na coluna de chave primária (PK) devem ser sempre únicos, não admitindo-se repetições nesses valores.
 Desta forma, as tuplas (registros) serão sempre distintas.
 Os valores de chave primária também não podem ser nulos.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* INTEGRIDADE DEFINIDA PELO USUÁRIO: Diz respeito a regras de negócio específicas que são definidas pelo usuário do banco de dados.
+Por exemplo, pode-se definir que uma coluna somente aceitará um conjunto restrito de valores.
 
 
  
