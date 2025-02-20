@@ -861,7 +861,23 @@ Ferramentas CASE:
 Nome -------------  +-------------------+ N +-------------------+ 1 +-------------------+
 ID_Setor----------  |   Funcionário     |---|   Trabalha        |---|      Setor        |----- ID_Setor
 Cargo ------------  +-------------------+   +-------------------+   +-------------------+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* DIAGRAMAÇÃO: PÉ-DE-GALINHA (CROW'S FOOT):
+Explicando o Diagrama "Pé-de-Galinha" (Crow's Foot):
+
+1. Entidades são representadas por retângulos.
+2. Relacionamentos entre as entidades são representados por linhas conectando essas entidades.
+3. As cardinalidades são indicadas com símbolos específicos nas extremidades das linhas de relacionamento:
+ 
+- Um para um (1:1): Um único registro de uma entidade se relaciona com um único registro de outra.
+- Um para muitos (1:N): Um único registro de uma entidade pode se relacionar com múltiplos registros de outra.
+- Muitos para muitos (N:M): Muitos registros de uma entidade podem se relacionar com muitos registros de outra.
+
+No diagrama Pé-de-Galinha, as cardinalidades são representadas da seguinte forma:
+
+- 1 é representado por uma linha simples (uma única linha).
+- Muitos (N) é representado por um símbolo de "pé de galinha" (três linhas saindo de um ponto de conexão).
 
 
 
