@@ -886,6 +886,12 @@ No diagrama Pé-de-Galinha, as cardinalidades são representadas da seguinte for
 - Obrigatório: Indica que a participação da entidade no relacionamento é obrigatória. Representado por uma linha sem círculo ou com um traço na extremidade do "1".
 - Opcional: Indica que a participação da entidade no relacionamento é opcional. Representado por um círculo na extremidade da linha, indicando que a entidade pode existir sem estar relacionada com outra.
 
+* DIAGRAMAÇÃO: PÉ-DE-GALINHA (CROW'S FOOT):
+
+- Relacionamento Forte(linha sólida) ___________________: a existência de uma entidade filha é dependente de uma entidade-pai. A chave primária da entidade-filha contém a chave primária da entidade-pai. 
+
+- Relacionamento Fraco(linha tracejada) -----------: a existência de uma entidade é independente de outras entidades. A chave primária de uma entidade-filha não contém a chave primária da entidade-pai.
+
 
 
  
