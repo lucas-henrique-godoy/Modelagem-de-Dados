@@ -782,7 +782,7 @@ Atributo Preço do Produto: Valor Monetário
 * INTEGRIDADE REFERENCIAL: Uma restrição de Integridade Referencial assegura que valores de uma coluna em uma tabela são válidos baseados nos valores em uma outra tabela relacionada.
 EX.: Se um produto de ID 523 foi cadastrado em uma tabela de Vendas, então um produto com ID 523 deve existir na tabela de Produtos relacionada.
 
-INTEGRIADE REFERENCIAL - EXEMPLO:
+* INTEGRIADE REFERENCIAL - EXEMPLO:
 
 Atributo Nome_Produto: Caracteres
 - Valores permitidos (produtos cadastrados):
@@ -792,6 +792,10 @@ Atributo Nome_Produto: Caracteres
 
 - Valores não permitidos para venda (não existentes na tabela de produtos):
   - Cerveja
+
+* INTEGRIADE REFERENCIAL  - ATUALIZAÇÃO E EXCLUSÃO: Se um registro for excluído em uma tabela,  então os registros relacionados em outras tabelas que o referenciam talvez precisem ser excluídos.
+Caso contrário ocorrerá erro.
+O mesmo se dá com atualização de registros.
  
   
 
