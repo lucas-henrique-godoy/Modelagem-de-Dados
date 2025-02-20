@@ -810,6 +810,15 @@ Os nulos podem ser problemáticos, pois indicam:
 * EXEMPLOS DE VALORES NULL: Suponha uma tabela de cadastro de alunos. Todo aluno deverá ter um nome cadastrado, de modo que esse campo é obrigatório (atributo não-nulo).
 Nem todo aluno possui telefone, portanto esse campo não é obrigatório (atributo nulo).
 
+* OUTRO EXEMPLO DE VALORES NULL:
++------------+-------------------+-------------------+------------------+---------------------+
+| ID_Aluno   | Nome_Aluno        | Sobrenome_Aluno   | Telefone         | Data_Nascimento     |
++------------+-------------------+-------------------+------------------+---------------------+
+| 111        | Márcio            | Zanori            | (11) 26533211    | 01/03/1983          |
+| 112        | Renato            | Marconi           | NULL             | 14/11/1985          |
++------------+-------------------+-------------------+------------------+---------------------+
+
+
  
   
 
