@@ -832,6 +832,15 @@ ________________________________________________________________________________
 
 -DIAGRAMAÇÃO: O Diagrama Entidade Relacionamento é a representação gráfica de um MER, que é um modelo conceitual. O uso de um diagrama facilita a modelagem e a comunicação entre os membros da equipe de desenvolvimento, permitindo que todos falem a mesma "língua" durante o processo.
 A notação original do DER foi proposta por Peter Chen.
+Existem vários métodos para representar relacionamentos entre entidades.
+As notações gráficas mais utilizadas em modelagem de dados são:
+- IDEF1X
+- Bachman
+- Min-Max
+- Pé de Galinha (Crow's Foot)
+- Martin
+- UML
+- Peter Chen
 
 
 
