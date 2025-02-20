@@ -800,6 +800,13 @@ O mesmo se dá com atualização de registros.
 
 * INTEGRIDADE DE VAZIO: Este tipo de integridade informa se a coluna é obrigatória ou opcional - ou seja,  se é possível não inserir um valor na coluna.
 Uma coluna de chave primária, por exemplo, sempre deve ter dados inseridos, e nunca pode estar vazia, para nenhum registro.
+
+* VALORES NULOS (NULL): Um valor NULL significa que não existem dados. É diferente de zero, espaço, string vazia ou tabulação.
+Os nulos podem ser problemáticos, pois indicam:
+- O valor da coluna não é apropriado;
+- O valor não foi inserido;
+- O valor é desconhecido.
+
  
   
 
