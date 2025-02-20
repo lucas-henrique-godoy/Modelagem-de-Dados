@@ -891,6 +891,10 @@ No diagrama Pé-de-Galinha, as cardinalidades são representadas da seguinte for
 - Relacionamento Forte(linha sólida) ___________________: a existência de uma entidade filha é dependente de uma entidade-pai. A chave primária da entidade-filha contém a chave primária da entidade-pai. Ou seja a entidade filha depende da entidade pai para existir.
 
 - Relacionamento Fraco(linha tracejada) -----------: a existência de uma entidade é independente de outras entidades. A chave primária de uma entidade-filha não contém a chave primária da entidade-pai. Ou seja a entidade filha não depende da entidade pai para existir.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* DICIONÁRIO DE DADOS: Um dicionário e dados é um documento usado para armazenar informações sobre o conteúdo, formato e a estrutura de um banco de dados, assim como os relacionamentos entre os seus elementos.
+É importante manter um dicionário de dados para limitar erros ao criar a estrutura física do banco de dados no computador. Também chamado de "Repositório de Metadados". 
 
 
 
