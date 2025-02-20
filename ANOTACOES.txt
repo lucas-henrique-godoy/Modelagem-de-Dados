@@ -796,6 +796,10 @@ Atributo Nome_Produto: Caracteres
 * INTEGRIADE REFERENCIAL  - ATUALIZAÇÃO E EXCLUSÃO: Se um registro for excluído em uma tabela,  então os registros relacionados em outras tabelas que o referenciam talvez precisem ser excluídos.
 Caso contrário ocorrerá erro.
 O mesmo se dá com atualização de registros.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* INTEGRIDADE DE VAZIO: Este tipo de integridade informa se a coluna é obrigatória ou opcional - ou seja,  se é possível não inserir um valor na coluna.
+Uma coluna de chave primária, por exemplo, sempre deve ter dados inseridos, e nunca pode estar vazia, para nenhum registro.
  
   
 
