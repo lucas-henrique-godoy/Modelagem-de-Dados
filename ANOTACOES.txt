@@ -858,7 +858,7 @@ Ferramentas CASE:
 
 *DIAGRAMAÇÃO - PETER CHEN: A notação de Peter Chen para DER utiliza retângulos para representar Entidades, e losangos para os Relacionamentos. Atributos são representados por elipses.
 
-Nome -------------  +-------------------+   +-------------------+   +-------------------+
+Nome -------------  +-------------------+ N +-------------------+ 1 +-------------------+
 ID_Setor----------  |   Funcionário     |---|   Trabalha        |---|      Setor        |----- ID_Setor
 Cargo ------------  +-------------------+   +-------------------+   +-------------------+
 
