@@ -888,9 +888,9 @@ No diagrama Pé-de-Galinha, as cardinalidades são representadas da seguinte for
 
 * DIAGRAMAÇÃO: PÉ-DE-GALINHA (CROW'S FOOT):
 
-- Relacionamento Forte(linha sólida) ___________________: a existência de uma entidade filha é dependente de uma entidade-pai. A chave primária da entidade-filha contém a chave primária da entidade-pai. 
+- Relacionamento Forte(linha sólida) ___________________: a existência de uma entidade filha é dependente de uma entidade-pai. A chave primária da entidade-filha contém a chave primária da entidade-pai. Ou seja a entidade filha depende da entidade pai para existir.
 
-- Relacionamento Fraco(linha tracejada) -----------: a existência de uma entidade é independente de outras entidades. A chave primária de uma entidade-filha não contém a chave primária da entidade-pai.
+- Relacionamento Fraco(linha tracejada) -----------: a existência de uma entidade é independente de outras entidades. A chave primária de uma entidade-filha não contém a chave primária da entidade-pai. Ou seja a entidade filha não depende da entidade pai para existir.
 
 
 
