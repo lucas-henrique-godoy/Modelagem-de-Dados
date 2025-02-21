@@ -957,7 +957,8 @@ DICIONÁRIOS DOS RELACIONAMENTOS APENAS:
 +-----------------+------------------+------------------+------------------------------------------------------------+
 _______________________________________________________________________________________________________________________________________________________________________
 
-* DEPENDÊNCIA FUNCIONAL: Seja E uma entidade, e X e Y dois atributos quaisquer de E. Dizemos que Y é funcionalmente dependente de X se e somente se cada valor de X tiver associado a ele exatamente um valor de Y.
+* DEPENDÊNCIA FUNCIONAL: 
+Seja E uma entidade, e X e Y dois atributos quaisquer de E. Dizemos que Y é funcionalmente dependente de X se e somente se cada valor de X tiver associado a ele exatamente um valor de Y.
 Simbolicamente:
   
    X -----> Y
@@ -968,11 +969,14 @@ EXEMPLO.: O prazo de entrega de um pedido depende do número do pedido considera
 
 Numero_Pedido ------------> Prazo_Entrega_Pedido
 
-O atributo que determina o valor é chamado de Determinate.
+O atributo que determina o valor é chamado de Determinante.
 O outro atributo é chamado de Dependente.
 
 Uma chave primária em uma relação determina funcionalmente todos os outros atributos não-chave na linha.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* DEPENDÊNCIA FUNCIONAL TOTAL:
+Em uma relação com uma PK composta, um atributo não-chave que depende dessa PK como um todo,  e não somente de parte dela, é dito como possuindo Dependência Funcional Total.
 
 
 
