@@ -992,7 +992,7 @@ EXEMPLO.:
 OBS: Nesta tabela o Num_Pedido e Cod_Produto combinados formam a chave primária composta.
 OBS: Quant_Produto é um campo não-chave.
 
-PERGUNTA QUE SERVE PARA ENTERDERMOS: A Quant_Produto depende do que: Cod_Produto ou Num_Pedido? RESPOSTA: Depende de ambos, pois eu preciso saber qual é o código do produto para saber a quantidade que esta sendo vendida, mas também eu preciso saber o número do pedido, porque em pedidos diferentes eu posso ter quantidades diferentes do produto sendo vendido. Então é necessário as informações da chave primária composta inteira(Num_Pedido e Cod_Produto) para determinar a quantidade do produto(Quant_Produto). Isso classifica uma DEPENDÊNCIA FUNCIONAL TOTAL.
+PERGUNTA QUE DEVEMOS FAZER PARA ENTERDERMOS: A Quant_Produto depende do que: Cod_Produto ou Num_Pedido? RESPOSTA: Depende de ambos, pois eu preciso saber qual é o código do produto para saber a quantidade que esta sendo vendida, mas também eu preciso saber o número do pedido, porque em pedidos diferentes eu posso ter quantidades diferentes do produto sendo vendido. Então é necessário as informações da chave primária composta inteira(Num_Pedido e Cod_Produto) para determinar a quantidade do produto(Quant_Produto). Isso classifica uma DEPENDÊNCIA FUNCIONAL TOTAL.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * DEPENDÊNCIA FUNCIONAL PARCIAL:
@@ -1009,7 +1009,9 @@ EXEMPLO.:
 
 Campo Nome_Disciplina é dependente de Cod_Disciplina, mas não do ID_Aluno.
 
+PERGUNTA QUE DEVEMOS FAZER PARA ENTERDERMOS: O Nome da Disciplina depende de quem? RESPOSTA: O Nome da Disciplina depende do Código da Disciplina.
 
+OBS: O Nome da Disciplina não depende do ID do Aluno.
 	
 
 
