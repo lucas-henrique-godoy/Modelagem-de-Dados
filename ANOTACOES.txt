@@ -988,10 +988,11 @@ EXEMPLO.:
 +--------------------+
 
  Aqui, Quant_Produto depende tanto de Num_Pedido quanto de Cod_Produto,  ao mesmo tempo.
-OBS: Nesta tabela o Num_Pedido e Cod_Produto combinados formam a chave primária composta.
-Quant_Produto é um campo não-chave.
 
-PERGUNTA QUE SERVE PARA ENTERDERMOS: A Quant_Produto depende do que: Cod_Produto ou Num_Pedido ? RESPOSTA: Depende de ambos, pois eu preciso saber qual é o código do produto para saber a quantidade que esta sendo vendida, mas também eu preciso saber o número do pedido, porque em pedidos diferentes eu posso ter quantidades diferentes do produto sendo vendidas.
+OBS: Nesta tabela o Num_Pedido e Cod_Produto combinados formam a chave primária composta.
+OBS: Quant_Produto é um campo não-chave.
+
+PERGUNTA QUE SERVE PARA ENTERDERMOS: A Quant_Produto depende do que: Cod_Produto ou Num_Pedido? RESPOSTA: Depende de ambos, pois eu preciso saber qual é o código do produto para saber a quantidade que esta sendo vendida, mas também eu preciso saber o número do pedido, porque em pedidos diferentes eu posso ter quantidades diferentes do produto sendo vendido. Então é necessário as informações da chave primária composta.
 
 
 	
