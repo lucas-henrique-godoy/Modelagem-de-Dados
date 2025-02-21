@@ -1016,6 +1016,19 @@ OBS: O Nome da Disciplina não depende do ID do Aluno.
 
 * DEPENDENCIA FUNCIONAL TRANSITIVA:
 Ocorre quando um campo não depende diretamente da chave primária da tabela (nem mesmo parcialmente), mas depende de um outro campo não-chave.
-	
+EXEMPLO.:
++----------------------+
+|   Pedido             |
++----------------------+
+| PK  | Num_Pedido     |
+|     | Prazo_Entrega  |
+| FK  | Cod_Vendedor   |
+|     |	Nome_Vendedor  |
++----------------------+
+
+No exemplo, o atributo Nome_Vendedor depende funcionalmente do Cód_Vendedor, que não é a chave primária na tabela. Já o campo Prazo_Entrega depende da PK, Num_Pedido.
+
+PERGUNTA QUE DEVEMOS FAZER PARA ENTERDERMOS: O nome do vendedor depende do número do pedido? RESPOSTA: Não, o nome do vendedor depende do Código do Vendedor. E o Código do Vendedor é que vai depender do Número do Pedido.
+OBS: Por esse motivo o Nome_Vendedor não deveria estar nesta tabela, deveria estar em outra tabela, para que nós pudéssemos acessar esse nome via relacionamento de chave primária e chave estrangeira. Como podemos saber disso? Identificando a Dependência Funcional Transitiva.
 
 
