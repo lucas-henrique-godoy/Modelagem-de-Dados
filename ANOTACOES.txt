@@ -919,8 +919,10 @@ DICIONÁRIOS DOS ATRIBUTOS E SEUS TIPOS DE DADOS DA TABELA LIVRO
 |             | ID_Editora     | Inteiro       | 4 bytes     | FK          | N/D          | Número de identificação da editora                            |
 |             | Data_Pub       | Data          | 8 bytes     |             | N/D          | Data de publicação da obra                                    |
 +-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
-
+*Total de Dados em cada Registro: 60 bytes
 			  
+
+
 DICIONÁRIOS DOS ATRIBUTOS E SEUS TIPOS DE DADOS DA TABELA AUTOR
 +-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
 | Tabela      | Nome da Coluna | Tipo de Dados | Comprimento | Restrições  | Valor Padrão | Descrição                                                     |
@@ -929,6 +931,20 @@ DICIONÁRIOS DOS ATRIBUTOS E SEUS TIPOS DE DADOS DA TABELA AUTOR
 |             | Nome_Autor     | Caracteres    | 40 bytes    | NOT NULL    | N/D          | Nome do autor                                                 |
 |             | Sonrenome_Autor| Inteiro       | 4 bytes     | NOT NULL    | N/D          | Sobrenome do autor                                            |
 +-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
+*Total de Dados em cada Registro: 84 bytes
+
+
+
+
+DICIONÁRIOS DOS ATRIBUTOS E SEUS TIPOS DE DADOS DA TABELA EDITORA
++-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
+| Tabela      | Nome da Coluna | Tipo de Dados | Comprimento | Restrições  | Valor Padrão | Descrição                                                     |
++-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
+| tbl_Editora | ID_Editora     | Inteiro       | 4 bytes     | PK, NOT NULL| N/D          | Número de identificação da editora, gerado automaticamente    |
+|             | Nome_Editora   | Caracteres    | 40 bytes    | NOT NULL    | N/D          | Nome do Editora                                               |
++-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
+*Total de Dados em cada Registro: 44 bytes
+
 
 			      
 
