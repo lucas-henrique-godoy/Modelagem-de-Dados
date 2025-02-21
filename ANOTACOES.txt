@@ -896,7 +896,8 @@ ________________________________________________________________________________
 * DICIONÁRIO DE DADOS: Um dicionário e dados é um documento usado para armazenar informações sobre o conteúdo, formato e a estrutura de um banco de dados, assim como os relacionamentos entre os seus elementos.
 É importante manter um dicionário de dados para limitar erros ao criar a estrutura física do banco de dados no computador. Também chamado de "Repositório de Metadados"(dados que explicam sobre as estruturas dos dados no banco de dados(dados sobre dados)). 
 
-DICIONÁRIOS DAS ENTIDADES E DOS RELACIONAMENTOS
+
+DICIONÁRIOS DAS ENTIDADES E DOS RELACIONAMENTOS: DE TODAS AS TABELAS
 +-----------------+------------------+------------------------+----------------------------------------------------------+
 | Tabela          | Relacionamento   | Nome do Relacionamento | Descrição                                                |
 +-----------------+------------------+-----------------------------------------------------------------------------------+
