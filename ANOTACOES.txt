@@ -978,6 +978,16 @@ Uma chave primária em uma relação determina funcionalmente todos os outros at
 * DEPENDÊNCIA FUNCIONAL TOTAL:
 Em uma relação com uma PK composta, um atributo não-chave que depende dessa PK como um todo,  e não somente de parte dela, é dito como possuindo Dependência Funcional Total.
 
+EXEMPLO.:
++--------------------+
+|   Item-Pedido      |
++--------------------+
+| PK  | Num_Pedido   |
+| PK  | Cod_Produto  |
+|     | Quant_Produto|
++--------------------+
+
+ Aqui, Quant_Produto depende tanto de Num_Pedido quanto de Cod_Produto,  ao mesmo tempo.
 
 
 	
