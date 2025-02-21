@@ -964,6 +964,16 @@ Simbolicamente:
 
 Que lemos como "X determina funcionalmente Y".
 
+EXEMPLO.: O prazo de entrega de um pedido depende do número do pedido considerado:
+
+Numero_Pedido ------------> Prazo_Entrega_Pedido
+
+O atributo que determina o valor é chamado de Determinate.
+O outro atributo é chamado de Dependente.
+
+Uma chave primária em uma relação determina funcionalmente todos os outros atributos não-chave na linha.
+
+
 
 
 	
