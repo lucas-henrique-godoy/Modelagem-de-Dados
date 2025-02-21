@@ -955,6 +955,14 @@ DICIONÁRIOS DOS RELACIONAMENTOS APENAS:
 | Escreve         | tbl_Livro        | tbl_Autor        | Relacionamento que descreve qual autor escreve cada livro  |
 | Publica         | tbl_Livro        | tbl_Editora      | Relacionamento que mostra qual editora publica cada livro  |
 +-----------------+------------------+------------------+------------------------------------------------------------+
+_______________________________________________________________________________________________________________________________________________________________________
+
+* DEPENDÊNCIA FUNCIONAL: Seja E uma entidade, e X e Y dois atributos quaisquer de E. Dizemos que Y é funcionalmente dependente de X se e somente se cada valor de X tiver associado a ele exatamente um valor de Y.
+Simbolicamente:
+  
+   X -----> Y
+
+Que lemos como "X determina funcionalmente Y".
 
 
 
