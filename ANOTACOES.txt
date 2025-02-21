@@ -909,18 +909,27 @@ DICIONÁRIOS DAS ENTIDADES E DOS RELACIONAMENTOS
 +-----------------+------------------+------------------------+----------------------------------------------------------+
    
  
-DICIONÁRIOS DOS ATRIBUTOS E SEUS TIPOS DE DADOS
+DICIONÁRIOS DOS ATRIBUTOS E SEUS TIPOS DE DADOS DA TABELA LIVRO
 +-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
 | Tabela      | Nome da Coluna | Tipo de Dados | Comprimento | Restrições  | Valor Padrão | Descrição                                                     |
 +-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
 | tbl_Livro   | ID_Livro       | Inteiro       | 4 bytes     | PK, NOT NULL| N/D          | Número de identificação do livro, gerado automaticamente      |
-|             | Nome_Livro     | Caracteres    | 40 bytes    | NOT NULL    | N/D          | N/D                                                           |
+|             | Nome_Livro     | Caracteres    | 40 bytes    | NOT NULL    | N/D          | Título da obra                                                |
 |             | ID_Autor       | Inteiro       | 4 bytes     | FK          | N/D          | Número de identificação do autor                              |
 |             | ID_Editora     | Inteiro       | 4 bytes     | FK          | N/D          | Número de identificação da editora                            |
 |             | Data_Pub       | Data          | 8 bytes     |             | N/D          | Data de publicação da obra                                    |
 +-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
 
 			  
+DICIONÁRIOS DOS ATRIBUTOS E SEUS TIPOS DE DADOS DA TABELA AUTOR
++-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
+| Tabela      | Nome da Coluna | Tipo de Dados | Comprimento | Restrições  | Valor Padrão | Descrição                                                     |
++-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
+| tbl_Autor   | ID_Autor       | Inteiro       | 4 bytes     | PK, NOT NULL| N/D          | Número de identificação do livro, gerado automaticamente      |
+|             | Nome_Autor     | Caracteres    | 40 bytes    | NOT NULL    | N/D          | Nome do autor                                                 |
+|             | Sonrenome_Autor| Inteiro       | 4 bytes     | NOT NULL    | N/D          | Sobrenome do autor                                            |
++-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
+
 			      
 
 
