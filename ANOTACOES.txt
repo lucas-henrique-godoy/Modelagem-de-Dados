@@ -997,6 +997,17 @@ PERGUNTA QUE SERVE PARA ENTERDERMOS: A Quant_Produto depende do que: Cod_Produto
 
 * DEPENDÊNCIA FUNCIONAL PARCIAL:
 Uma dependência funcional é parcial quando os atributos não-chave não dependem funcionalmente de toda a PK quando esta for composta. Ou seja, existe uma dependência funcional, mas somente de uma parte da chave primária.
+EXEMPLO.:
++----------------------+
+|   Matrículas         |
++----------------------+
+| PK  | ID_Aluno       |
+| PK  | Cod_Disciplina |
+|     | Nome_Disciplina|
+|	Data_Início    |
++----------------------+
+
+Campo Nome_Disciplina é dependente de Cod_Disciplina, mas não do ID_Aluno.
 
 
 	
