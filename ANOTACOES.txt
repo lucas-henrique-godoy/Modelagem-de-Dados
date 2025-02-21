@@ -897,7 +897,7 @@ ________________________________________________________________________________
 É importante manter um dicionário de dados para limitar erros ao criar a estrutura física do banco de dados no computador. Também chamado de "Repositório de Metadados"(dados que explicam sobre as estruturas dos dados no banco de dados(dados sobre dados)). 
 
 
-DICIONÁRIOS DAS ENTIDADES E DOS RELACIONAMENTOS: DE TODAS AS TABELAS
+DICIONÁRIOS DAS ENTIDADES E DOS RELACIONAMENTOS: DE TODAS AS TABELAS:
 +-----------------+------------------+------------------------+----------------------------------------------------------+
 | Tabela          | Relacionamento   | Nome do Relacionamento | Descrição                                                |
 +-----------------+------------------+-----------------------------------------------------------------------------------+
@@ -910,7 +910,7 @@ DICIONÁRIOS DAS ENTIDADES E DOS RELACIONAMENTOS: DE TODAS AS TABELAS
 +-----------------+------------------+------------------------+----------------------------------------------------------+
    
  
-DICIONÁRIOS DOS ATRIBUTOS E SEUS TIPOS DE DADOS DA TABELA LIVRO
+DICIONÁRIOS DOS ATRIBUTOS E SEUS TIPOS DE DADOS DA TABELA LIVRO:
 +-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
 | Tabela      | Nome da Coluna | Tipo de Dados | Comprimento | Restrições  | Valor Padrão | Descrição                                                     |
 +-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
@@ -924,7 +924,7 @@ DICIONÁRIOS DOS ATRIBUTOS E SEUS TIPOS DE DADOS DA TABELA LIVRO
 			  
 
 
-DICIONÁRIOS DOS ATRIBUTOS E SEUS TIPOS DE DADOS DA TABELA AUTOR
+DICIONÁRIOS DOS ATRIBUTOS E SEUS TIPOS DE DADOS DA TABELA AUTOR:
 +-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
 | Tabela      | Nome da Coluna | Tipo de Dados | Comprimento | Restrições  | Valor Padrão | Descrição                                                     |
 +-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
@@ -937,7 +937,7 @@ DICIONÁRIOS DOS ATRIBUTOS E SEUS TIPOS DE DADOS DA TABELA AUTOR
 
 
 
-DICIONÁRIOS DOS ATRIBUTOS E SEUS TIPOS DE DADOS DA TABELA EDITORA
+DICIONÁRIOS DOS ATRIBUTOS E SEUS TIPOS DE DADOS DA TABELA EDITORA:
 +-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
 | Tabela      | Nome da Coluna | Tipo de Dados | Comprimento | Restrições  | Valor Padrão | Descrição                                                     |
 +-------------+----------------+---------------+-------------+-------------+--------------+---------------------------------------------------------------+
@@ -948,6 +948,13 @@ DICIONÁRIOS DOS ATRIBUTOS E SEUS TIPOS DE DADOS DA TABELA EDITORA
 
 
 			      
+DICIONÁRIOS DOS RELACIONAMENTOS APENAS:
++-----------------+------------------+------------------+------------------------------------------------------------+
+| Relacionamento  | Tabela 1 - FK    | Tabela 2 - PK    | Descrição                                                  |
++-----------------+------------------+------------------+------------------------------------------------------------+
+| Escreve         | tbl_Livro        | tbl_Autor        | Relacionamento que descreve qual autor escreve cada livro  |
+| Publica         | tbl_Livro        | tbl_Editora      | Relacionamento que mostra qual editora publica cada livro  |
++-----------------+------------------+------------------+------------------------------------------------------------+
 
 
 
