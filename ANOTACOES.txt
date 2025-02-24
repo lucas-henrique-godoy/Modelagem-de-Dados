@@ -1080,6 +1080,12 @@ OBS: Decompor Ou seja, pegar uma relação(tabela) que tem vários campos, e ext
 - Codd propôs originalmente 3 formas normais: 1º, 2º e 3ºDNs.
 - Posteriormente,  a 3FN foi revisada e uma definição mais robusta foi proposta por Boyce e Codd, denominada Forma Normal de Boyce-Codd(FNBC).
 
+# OBJETIVOS DA NORMALIZAÇÃO: Analisar esquemas de relação(tabelas) com base em suas dependências funcionais e chaves primárias para:
+1. Minimizar redundâncias.
+2. Minimizar anomalias de inserção, exclusão e modificação.
+
+As relações são decompostas em esquemas de relação menores que atendem aos testes de forma normal.
+
 
 
 
