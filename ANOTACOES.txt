@@ -1076,6 +1076,10 @@ ________________________________________________________________________________
 
 OBS: Decompor Ou seja, pegar uma relação(tabela) que tem vários campos, e extrair os campos que não são relevantes à essa tabela, e formar outras tabelas com esses campos. Não se trata de jogar dados no lixo, trata-se de organizar esses dados num lugar correto,  e as vezes esse lugar correto é em outras tabelas(criando outras tabelas).
 
+- O processo de normalização, proposto por Codd em 1972, aplica a um esquema de relação uma série de testes para certificar que ele satisfaça uma Forma Normal (FN).
+- Codd propôs originalmente 3 formas normais: 1º, 2º e 3ºDNs.
+- Posteriormente,  a 3FN foi revisada e uma definição mais robusta foi proposta por Boyce e Codd, denominada Forma Normal de Boyce-Codd(FNBC).
+
 
 
 
