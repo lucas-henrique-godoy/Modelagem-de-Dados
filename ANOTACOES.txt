@@ -1051,6 +1051,7 @@ DEPENDÊNCIA MULTIVALORADA - EXEMPLO
 +---------+------+---------+
 
 Ano e Cor são independentes entre si e dependem do modelo do caro. Essas duas colunas são dependentes multivaloradas do Modelo.
+_______________________________________________________________________________________________________________________________________________________________________
 
  
 
