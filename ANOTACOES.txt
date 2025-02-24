@@ -1050,14 +1050,19 @@ DEPENDÊNCIA MULTIVALORADA - EXEMPLO
 | Fox     | 2014 | Branco  |
 +---------+------+---------+
 
-Ano e Cor são independentes entre si e dependem do modelo do caro. Essas duas colunas são dependentes multivaloradas do Modelo.
+- Ano e Cor são independentes entre si e dependem do modelo do caro. Essas duas colunas são dependentes multivaloradas do Modelo.
 _______________________________________________________________________________________________________________________________________________________________________
 
  * INTRODUÇÃO ÀS ANOMALIAS E NORMALIZAÇÃO
 
-# ANMALIAS DE ATUALIZAÇÃO:
+# ANOMALIAS DE ATUALIZAÇÃO:
 - Anomalias são problemas que ocorrem em bancos de dados mal planejados e não-normalizados, geralmente ocorrendo por excesso de dados armazenados em uma mesma tabela.
 - São causadas pelas dependências parciais e transitivas.
 - As anomalias de atualização são classificadas em anomalias de inserção,  de exclusão e de modificação.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* ANOMALIA DE INCLUSÃO: Anomalia de Inclusão: Não deve ser possível adicionar um dado a não ser que outro dado esteja disponível. Por exemplo, não deve ser permitido cadastrar um novo livro sem que um autor já esteja cadastrado.
+
+
 
 
