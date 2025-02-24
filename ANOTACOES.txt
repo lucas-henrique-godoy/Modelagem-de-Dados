@@ -1067,6 +1067,9 @@ ________________________________________________________________________________
 # ANOMALIA DE EXCLUSÃO: Ao excluirmos um registro, dados referentes em outra tabela são excluídos. Por exemplo, se excluirmos um autor, os livros desse autor devem ser excluídos também.
 
 # ANOMALIA DE MODIFICAÇÃO: Ao alterar um dado em uma tabela, dados em outras tabelas precisam ser alterados. Por exemplo,  se o  código de um autor for modificado,  esse código deve ser modificado na tabela  de autores e na de livros também, para manter o relacionamento entre livros e seus autores corretos.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* ELIMINAR ANOMALIAS: Projetar os esquemas de relações(tabelas) no banco de dados de modo que nenhuma anomalia de inserção, exclusão ou modificação esteja presente nas relações. Para isso, usamos o processo de Normalização.
 
 
 
