@@ -1070,6 +1070,11 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________________________________________________________________________
 
 * ELIMINAR ANOMALIAS: Projetar os esquemas de relações(tabelas) no banco de dados de modo que nenhuma anomalia de inserção, exclusão ou modificação esteja presente nas relações. Para isso, usamos o processo de Normalização.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* NORMALIZAÇÃO: Consiste em um processo de análise de uma relação para assegurar que seja bem formada. Decompor relações com anomalias para produzir relações menores e bem-estruturadas. Ou seja, em uma relação normalizada podemos inserir, excluir ou modificar registros sem criar anomalias.
+
+OBS: Decompor Ou seja, pegar uma relação(tabela) que tem vários campos, e extrair os campos que não são relevantes à essa tabela, e formar outras tabelas com esses campos. Não se trata de jogar dados no lixo, trata-se de organizar esses dados num lugar correto,  e as vezes esse lugar correto é em outras tabelas(criando outras tabelas).
 
 
 
