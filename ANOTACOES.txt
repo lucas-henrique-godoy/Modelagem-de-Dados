@@ -14,7 +14,7 @@ EX.: Lista de clientes com seus números de COF, ordenados.
 -Aplicações dos Bancos de Dados: Bancos de dados encontram aplicações em inúmeras áreas, como:
 
 # Sistemas Bancários
-# Reservas em hotés
+# Reservas em hotéis
 # Controle de estoque em supermercados
 # Catálogo de livros em bibliotecas
 # E-commerce
