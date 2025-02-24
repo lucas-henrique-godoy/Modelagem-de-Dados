@@ -1036,10 +1036,21 @@ PERGUNTA QUE DEVEMOS FAZER PARA ENTERDERMOS: O nome do vendedor depende do núme
 Ocorre quando, para cada valor de um atributo A, existe um conjunto de valores para outros atributos B e C que estão associados a ele, mas são independentes entre si.
 Representamos a dependência multivalorada assim:
 
-A ->> B
+A ->> B - Onde B é a coluna que depende de A. 
 
-Onde B é a coluna que depende de A. 
+DEPENDÊNCIA MULTIVALORADA - EXEMPLO
 
++---------+------+---------+
+| Modelo  | Ano  | Cor     |
++---------+------+---------+
+| Gol     | 2016 | Prata   |
+| Uno     | 2016 | Preto   |
+| Uno     | 2015 | Prata   |
+| Fox     | 2016 | Vermelho|
+| Fox     | 2014 | Branco  |
++---------+------+---------+
+
+Ano e Cor são independentes entre si e dependem do modelo do caro. Essas duas colunas são dependentes multivaloradas do Modelo.
 
  
 
