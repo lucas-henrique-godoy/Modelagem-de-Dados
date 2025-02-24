@@ -1030,6 +1030,16 @@ No exemplo, o atributo Nome_Vendedor depende funcionalmente do Cód_Vendedor, qu
 
 PERGUNTA QUE DEVEMOS FAZER PARA ENTERDERMOS: O nome do vendedor depende do número do pedido? RESPOSTA: Não, o nome do vendedor depende do Código do Vendedor. E o Código do Vendedor é que vai depender do Número do Pedido.
 - Então o Nome do Vendedor possuí uma Dependência Funcional Transitiva. Por esse motivo o Nome_Vendedor não deveria estar nesta tabela, deveria estar em outra tabela, para que nós pudéssemos acessar esse nome via relacionamento de chave primária e chave estrangeira. Como podemos saber disso? Identificando a Dependência Funcional Transitiva.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* DEPENDÊNCIA MULTIVALORADA: 
+Ocorre quando, para cada valor de um atributo A, existe um conjunto de valores para outros atributos B e C que estão associados a ele, mas são independentes entre si.
+Representamos a dependência multivalorada assim:
+
+A ->> B
+
+Onde B é a coluna que depende de A. 
+
 
  
 
