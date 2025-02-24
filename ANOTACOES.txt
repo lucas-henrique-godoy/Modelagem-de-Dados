@@ -1061,7 +1061,10 @@ ________________________________________________________________________________
 - As anomalias de atualização são classificadas em anomalias de inserção,  de exclusão e de modificação.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-* ANOMALIA DE INCLUSÃO: Anomalia de Inclusão: Não deve ser possível adicionar um dado a não ser que outro dado esteja disponível. Por exemplo, não deve ser permitido cadastrar um novo livro sem que um autor já esteja cadastrado.
+* ANOMALIA DE INCLUSÃO: Não deve ser possível adicionar um dado a não ser que outro dado esteja disponível. Por exemplo, não deve ser permitido cadastrar um novo livro sem que um autor já esteja cadastrado.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* ANOMALIA DE EXCLUSÃO: Ao excluirmos um registro, dados referentes em outra tabela são excluídos. Por exemplo, se excluirmos um autor, os livros desse autor devem ser excluídos também.
 
 
 
