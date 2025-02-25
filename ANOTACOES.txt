@@ -1087,6 +1087,16 @@ OBS: Decompor Ou seja, pegar uma relação(tabela) que tem vários campos, e ext
 
 As relações são decompostas em esquemas de relação menores que atendem aos testes de forma normal.
 
+O ideal é que o projeto do banco de dados relacional alcance a FNBC ou a 3FN para cada tabela. Não é adequado normalizar apenas até a 1FN ou à 2FN, pois na verdade essas formas normais são usadas para se chegar à 3FN ou FNBC.
+_______________________________________________________________________________________________________________________________________________________________________
+
+* PRIMEIRA FORMA NORMAL: Definida historicamente para reprovar atributos multivalorados, compostos e suas combinações. O domínio de um atributo deve incluir apenas valores atômicos(indivisíveis),  e o valor de qualquer atributo em uma tupla deve ser único valor do domínio desse atributo.
+Uma tabela está na 1ª forma normal quando:
+- Somente possui valores atômicos.
+- Não há grupos de atributos repetidos(há apenas um dado por coluna nas linhas).
+- Existe uma chave primária.
+- Relação não possui atributos multivalorados ou relações aninhadas.
+
 
 
 
